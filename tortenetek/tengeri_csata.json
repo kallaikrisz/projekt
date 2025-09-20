@@ -1,0 +1,222 @@
+{
+  "title": "A Fekete Vihar",
+  "start": "1",
+  "chapters": {
+    "1": {
+      "text": "A Fekete Vihar nevű kalózhajó fedélzetén állsz, a tenger morajlik, és sós szél csap az arcodba. A kapitány, egy félszemű, rekedten kiabáló öreg tengerész, éppen a legénységet vezényli a közelgő csata előtt. A matrózok idegesen mozognak, egy részeg szakács a hordók mögött motyog, míg a fedélzetmester kardját élezi. A horizonton feltűnik egy ellenséges hadihajó, zászlaján a királyi korona jelképe lobog. A fedélzet vibrál az izgalomtól: hamarosan összecsapás lesz.",
+      "choices": [
+        { "label": "Felkészülsz a csatára, és a tüzéreket segíted.", "next": "2" },
+        { "label": "Beszélgetsz a kapitánnyal a stratégiáról.", "next": "3" },
+        { "label": "Elbújsz a fedélzet alatt, hogy elkerüld a veszélyt.", "next": "4" }
+      ]
+    },
+    "2": {
+      "text": "A tüzéreknél vagy, akik sietve töltik az ágyúkat. Az egyik, egy fiatal matróz, reszkető kézzel tartja a kanócot. A többiek kiabálnak, hogy nyugodjon meg. Az ellenséges hajó közeledik, és a levegőben érezhető a puskapor szaga. Egy hirtelen döntést kell hoznod.",
+      "choices": [
+        { "label": "Átveszed a fiatal matróztól a kanócot.", "next": "5" },
+        { "label": "Megpróbálod bátorítani őt.", "next": "6" },
+        { "label": "Elhagyod a tüzéreket és visszamész a fedélzetre.", "next": "7" }
+      ]
+    },
+    "3": {
+      "text": "A kapitány morcosan rád néz, majd int, hogy kövess a kormányhoz. A közelben egy öreg navigátor térképeket böngész, miközben a kapitány gyors utasításokat ad. A csata stratégiájáról beszél, de közben rád pillant, mintha véleményedre is kíváncsi lenne.",
+      "choices": [
+        { "label": "Javaslod, hogy frontálisan támadjatok.", "next": "8" },
+        { "label": "Azt mondod, kerüljék meg az ellenséget.", "next": "9" },
+        { "label": "Csöndben maradsz, és hallgatsz.", "next": "10" }
+      ]
+    },
+    "4": {
+      "text": "Lemész a fedélzet alá, ahol a hajó sötét és dohos szaga betölti a levegőt. A részeg szakács rád nevet, miközben egy rothadó halat dobál a hordók között. Az egyik matróz halkan azt suttogja, hogy gyáva vagy, de senki más nem törődik veled. Ideig-óráig biztonságban érzed magad, de tudod, hogy a csata így is elér majd.",
+      "choices": [
+        { "label": "Felmégy újra a fedélzetre.", "next": "7" },
+        { "label": "A hajó raktárában keresel valami hasznosat.", "next": "11" }
+      ]
+    },
+    "5": {
+      "text": "Átveszed a kanócot, és meggyújtod. Az ágyú dörren, a lövedék hatalmas robajjal csapódik az ellenséges hajó oldalába. A legénység felujjong, a fiatal matróz hálásan néz rád. A kapitány kiáltja: „Még egyszer, emberek!”.",
+      "choices": [
+        { "label": "Folytatod az ágyúzást.", "next": "12" },
+        { "label": "Megpróbálod átszállni az ellenséghez.", "next": "13" }
+      ]
+    },
+    "6": {
+      "text": "A fiatal matróz rád hallgat, és remegő kézzel, de elsüti az ágyút. A lövés célt téveszt, és a többiek nevetni kezdenek. A fiú elszégyelli magát, és elszalad a fedélzetről. A tüzérek dühösen morognak.",
+      "choices": [
+        { "label": "Te magad töltöd be az ágyút.", "next": "12" },
+        { "label": "Utána mész, hogy visszahozd.", "next": "14" }
+      ]
+    },
+    "7": {
+      "text": "Visszatérsz a fedélzetre, ahol a harci zaj fokozódik. Az ellenséges hajó közelebb ér, és a fedélzeten kardok csattognak, ágyúk dörögnek. Egy matróz odakiált neked: „Fogj fegyvert, vagy véged!”.",
+      "choices": [
+        { "label": "Felkapod a kardot és harcolsz.", "next": "15" },
+        { "label": "Megpróbálsz az ellenséges hajóra ugrani.", "next": "13" },
+        { "label": "A kapitány közelében maradsz.", "next": "16" }
+      ]
+    },
+    "8": {
+      "text": "A kapitány elégedetten bólint, és kiadja a parancsot: frontális támadás! Az ágyúk egyszerre dördülnek, a hajó megremeg, és az ellenség hajója súlyosan megsérül. A fedélzeten ünneplés tör ki, de a harc még nem ért véget.",
+      "choices": [
+        { "label": "Folytatod a támadást.", "next": "17" },
+        { "label": "Megállítod a kapitányt, mert félted a hajót.", "next": "18" }
+      ]
+    },
+    "9": {
+      "text": "A kapitány gyanakodva néz rád, de végül megfogadja a tanácsod. Az ellenség meglepődik, és a hajótok előnybe kerül. A navigátor büszkén mosolyog, és azt mondja: „Okos döntés volt!”.",
+      "choices": [
+        { "label": "Tovább erőlteted a kerülést.", "next": "19" },
+        { "label": "Most már támadást javasolsz.", "next": "20" }
+      ]
+    },
+    "10": {
+      "text": "Csöndben maradsz, a kapitány helyetted dönt. A hajótok egyenesen az ellenségnek ront. A csata véres és kegyetlen lesz, a legénység sorra hullik, de az ellenség is megsérül.",
+      "choices": [
+        { "label": "Harcolsz a többiekkel együtt.", "next": "15" },
+        { "label": "Megpróbálsz elbújni a káoszban.", "next": "4" }
+      ]
+    },
+    "11": {
+      "text": "A raktárban találsz egy régi, poros ládát. Kinyitod, és egy régi térképet találsz, amely egy titkos szigetet jelöl. A térképet gyorsan a zsebedbe rejted, mielőtt más észrevenné.",
+      "choices": [
+        { "label": "Felviszed a térképet a kapitánynak.", "next": "21" },
+        { "label": "Elrejted, és magadnak tartod.", "next": "22" }
+      ]
+    },
+    "12": {
+      "text": "Az ágyúk tűzében az ellenség hajója lángra kap. A matrózok diadalmasan kiáltanak, és úgy tűnik, a győzelem közel van. Mégis, az ellenség kétségbeesetten próbál áttörni.",
+      "choices": [
+        { "label": "Átszállsz, hogy befejezd a harcot.", "next": "13" },
+        { "label": "Tovább lősz, míg teljesen elsüllyed.", "next": "23" }
+      ]
+    },
+    "13": {
+      "text": "Átugrasz az ellenséges hajóra. Ott vad harc fogad, kardok csattannak, ágyúk dörögnek. Egy hatalmas, díszes páncélú tiszt áll eléd, aki kihív párbajra.",
+      "choices": [
+        { "label": "Elfogadod a párbajt.", "next": "24" },
+        { "label": "Megpróbálod kikerülni, és a kapitányhoz rohanni.", "next": "25" }
+      ]
+    },
+    "14": {
+      "text": "Utánamész a fiatal matróznak, aki sírva ül egy hordón. Megpróbálod meggyőzni, hogy térjen vissza a csatába. Ő ingadozik, de a tekintetedben bátorságot lát.",
+      "choices": [
+        { "label": "Visszarángatod a harcba.", "next": "15" },
+        { "label": "Hagyod, hogy rejtőzködjön.", "next": "26" }
+      ]
+    },
+    "15": {
+      "text": "Kardot rántasz, és a harc sűrűjébe veted magad. A matrózok kiabálnak, vér és füst tölti be a levegőt. Az ellenség egyre fogy, de ti is súlyos veszteségeket szenvedtek.",
+      "choices": [
+        { "label": "Folytatod a harcot, amíg mindenki el nem pusztul.", "next": "27" },
+        { "label": "Megpróbálod elfogni az ellenség kapitányát.", "next": "28" }
+      ]
+    },
+    "16": {
+      "text": "A kapitány mellett maradsz, aki kardját forgatva vezeti a csapatot. Egy ellenséges tiszt ugrik rá, de te közbelépsz. A kapitány hálásan pillant rád.",
+      "choices": [
+        { "label": "Folytatod a kapitány védelmét.", "next": "29" },
+        { "label": "Elrohansz, hogy máshol segíts.", "next": "30" }
+      ]
+    },
+    "17": {
+      "text": "A frontális támadás sikeresnek tűnik. Az ellenség hajója lassan süllyed, a tenger elnyeli a maradványokat. A legénység győzelmet ünnepel.",
+      "choices": [
+        { "label": "Megállítod a támadást és segítesz a túlélőknek.", "next": "31" },
+        { "label": "Teljesen elpusztítod őket.", "next": "23" }
+      ]
+    },
+    "18": {
+      "text": "A kapitány dühösen rád ordít, hogy ne avatkozz bele. A következő pillanatban egy ágyúgolyó találja el a hajót, és a fedélzet leszakad alattad. A sötét víz elnyel.",
+      "choices": []
+    },
+    "19": {
+      "text": "A kerülési manőver túl sokáig tart, és az ellenség ágyúi eltalálják a hajót. A fedélzet lángba borul, a matrózok kétségbeesetten menekülnek. A navigátor meghal melletted.",
+      "choices": [
+        { "label": "Próbálsz a mentőcsónakhoz jutni.", "next": "32" },
+        { "label": "Maradsz harcolni a fedélzeten.", "next": "27" }
+      ]
+    },
+    "20": {
+      "text": "A kapitány új parancsot ad: tűz! Az ellenség hajója megsérül, de ti is komoly károkat szenvedtek. A harc véres és bizonytalan kimenetelű.",
+      "choices": [
+        { "label": "Megpróbálod elfogni az ellenség kapitányát.", "next": "28" },
+        { "label": "Visszavonulást javasolsz.", "next": "33" }
+      ]
+    },
+    "21": {
+      "text": "A kapitánynak átadod a térképet. Szeme felcsillan, és azt mondja: „Ez lehet az igazi kincs kulcsa!”. A legénység izgatott, és már a csata után új kalandot terveznek.",
+      "choices": [
+        { "label": "Elindulsz velük a sziget felé.", "next": "34" }
+      ]
+    },
+    "22": {
+      "text": "Magadnak tartod a térképet, és titokban a saját kalandod tervezed. Ha túléled a csatát, a sziget felé veszed az irányt, és saját kincsed lesz.",
+      "choices": [
+        { "label": "Elindulsz egyedül a sziget felé.", "next": "35" }
+      ]
+    },
+    "23": {
+      "text": "Az ellenség hajója darabokra hullik, a tenger magába temeti. A legénység ünnepel, de a vér és a halál árnyékként lebeg felettetek. A győzelem a tiéd, de keserű.",
+      "choices": []
+    },
+    "24": {
+      "text": "Elfogadod a párbajt. A harc hosszú és kegyetlen, de végül sikerül legyőznöd az ellenséges tisztet. A legénység bátorítva rohan tovább.",
+      "choices": [
+        { "label": "Elfoglalod a hajót.", "next": "36" },
+        { "label": "Visszatérsz a saját hajódra.", "next": "37" }
+      ]
+    },
+    "25": {
+      "text": "Megpróbálod kikerülni a tisztet, de ő hátba támad, és súlyosan megsebesít. A földre esel, és a látásod elsötétül.",
+      "choices": []
+    },
+    "26": {
+      "text": "A matróz rejtőzködik, te pedig egyedül maradsz a harcban. Az ellenség számbeli fölénye letaglóz, és hamarosan körbevesznek.",
+      "choices": []
+    },
+    "27": {
+      "text": "A harc végsőkig tart, és mindkét hajó súlyosan megsérül. Végül az ellenség is, ti is elpusztultok a hullámok között.",
+      "choices": []
+    },
+    "28": {
+      "text": "Elfogod az ellenség kapitányát, és ezzel a csata hirtelen véget ér. A legénység ünnepel, a ti hajótok diadalmaskodik.",
+      "choices": []
+    },
+    "29": {
+      "text": "A kapitány védelme alatt sikerül visszaverni az ellenséget. Ő büszkén rád néz, és kijelenti, hogy helyed van a hajón örökre.",
+      "choices": []
+    },
+    "30": {
+      "text": "Elrohansz máshová segíteni, de az ellenség gyorsabb. A hátadba döfnek, és összeesel.",
+      "choices": []
+    },
+    "31": {
+      "text": "Segítesz az ellenség túlélőinek. A kapitány először morcos, de később elismeri, hogy emberiességed dicséretet érdemel. Barátság születik a két hajó maradék legénysége között.",
+      "choices": []
+    },
+    "32": {
+      "text": "Eljutsz a mentőcsónakhoz, és sikerül elmenekülnöd. Bár a hajód elpusztult, te túléled, és új kalandok várnak rád egy másik kikötőben.",
+      "choices": []
+    },
+    "33": {
+      "text": "A visszavonulást javaslod, és a kapitány nehezen, de beleegyezik. A hajó megmenekül, bár sokan elestek. Ez sem győzelem, sem vereség – inkább keserű kompromisszum.",
+      "choices": []
+    },
+    "34": {
+      "text": "A szigeten hatalmas kincsre bukkantok. A legénység gazdag lesz, és te is részesülsz a zsákmányból. Ez a kaland pozitív lezárása.",
+      "choices": []
+    },
+    "35": {
+      "text": "Egyedül indulsz a sziget felé. Bár sikerül kincset találnod, magányod örökre kísér. A gazdagság mellett árnyék marad a lelkedben.",
+      "choices": []
+    },
+    "36": {
+      "text": "Elfoglalod az ellenséges hajót. A legénység örül, új hajótok van, és a tenger urai lesztek. Győzelem a tiéd.",
+      "choices": []
+    },
+    "37": {
+      "text": "Visszatérsz a saját hajódra, ahol a kapitány megdicsér. A győzelem közel, és tudod, hogy fontos szereped volt benne.",
+      "choices": []
+    }
+  }
+}

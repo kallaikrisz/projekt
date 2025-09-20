@@ -1,0 +1,243 @@
+{
+  "title": "A fekete zászló árnyékában",
+  "start": "1",
+  "chapters": {
+    "1": {
+      "text": "A Karib-tenger forró, fülledt éjszakáján a kikötő nyüzsgő kocsmájában ülsz. A szél hozza magával a rum és az izzadtság szagát, miközben matrózok énekelnek, egy öreg koldus halkan motyog a sarokban, és egy részeg kalóz történeteket mesél elveszett kincsekről. A falakon kifakult térképek lógnak, és az asztalodra hajol egy fiatal matróz, aki azt suttogja: „Hallottam valamit a Fekete Zászló hajójáról…”.",
+      "choices": [
+        { "label": "Rákérdezel a Fekete Zászló hajójára", "next": "2" },
+        { "label": "Figyelmen kívül hagyod a matrózt, és az öreg koldushoz fordulsz", "next": "3" },
+        { "label": "Elhagyod a kocsmát, és a kikötő felé indulsz", "next": "4" }
+      ]
+    },
+    "2": {
+      "text": "A fiatal matróz szeme felcsillan, majd körbenéz, nehogy hallják. Elmondja, hogy a Fekete Zászló hajója kincsekkel teli szigetre tart. Azt állítja, tudja a titkos útvonalat. De cserébe rumot kér. A kocsmáros közben gyanakodva figyel titeket, mintha hallgatózna.",
+      "choices": [
+        { "label": "Veszel neki egy kupica rumot", "next": "5" },
+        { "label": "Megfenyegeted, hogy beszéljen azonnal", "next": "6" },
+        { "label": "Otthagyod, és inkább más forrást keresel", "next": "7" }
+      ]
+    },
+    "3": {
+      "text": "Az öreg koldus bőre barna és ráncos, szemei üvegesek, de amikor megszólal, mély, rekedt hangon mesél egy szigetről, amelyen a tenger szellemei őrzik a kincset. Azt mondja, csak azok találják meg, akiknek tiszta a szívük. Egy matróz hátulról kineveti, és azt mondja: „Ne hallgass erre a vén bolondra!”.",
+      "choices": [
+        { "label": "Mégis hiszel az öregnek", "next": "8" },
+        { "label": "Nevetsz vele együtt, és elindulsz a kikötő felé", "next": "4" },
+        { "label": "Megkérdezed a részleteket a szellemekről", "next": "9" }
+      ]
+    },
+    "4": {
+      "text": "Kilépsz a kocsmából a nyirkos éjszakába. A kikötőben fáklyák égnek, hajók kötelei nyikorognak a szélben. Egy kapitány ordítozik a matrózaival, miközben egy árnyékos sarokban két férfi suttogva térképet néz. Az egyik hajóról halk énekszó szűrődik át.",
+      "choices": [
+        { "label": "Megközelíted a kapitányt", "next": "10" },
+        { "label": "A térképet néző férfiakhoz lépsz", "next": "11" },
+        { "label": "Felszállsz az éneklő hajóra", "next": "12" }
+      ]
+    },
+    "5": {
+      "text": "A matróz mohón felhajtja a rumot, majd egy térképdarabot húz elő a zsebéből. Megmutatja a titkos átjárót egy szigetre, amit csak kevesen ismernek. Halkan hozzáteszi: „De vigyázz, nem mindenki tér vissza onnan...”.",
+      "choices": [
+        { "label": "Megköszönöd, és a kikötőbe indulsz", "next": "4" },
+        { "label": "Részletesen kikérdezed a szigetről", "next": "13" },
+        { "label": "Megpróbálod ellopni a teljes térképet", "next": "14" }
+      ]
+    },
+    "6": {
+      "text": "A matróz szeme elkerekedik, majd reszketve mondja: „Jól van, jól van! Egy sziget… ott van az átkozott kincs!”. De a fenyegetésed hangosra sikerül, a kocsmáros rád förmed: „Hé, nem tűröm a balhékat itt!”. Az emberek gyanakodva figyelnek.",
+      "choices": [
+        { "label": "Kifizeted a kocsmárost, hogy békén hagyjon", "next": "15" },
+        { "label": "Verekedésbe keveredsz", "next": "16" },
+        { "label": "Gyorsan távozol a kikötőbe", "next": "4" }
+      ]
+    },
+    "7": {
+      "text": "Otthagyod a matrózt, aki csalódottan dől vissza a székébe. Az ajtón át kilépsz a kikötőbe, ahol az éjszaka nyüzsgése új kalandokat ígér.",
+      "choices": [
+        { "label": "A kapitányhoz lépsz", "next": "10" },
+        { "label": "A térképet néző férfiakhoz lépsz", "next": "11" },
+        { "label": "Az éneklő hajóra szállsz", "next": "12" }
+      ]
+    },
+    "8": {
+      "text": "Az öreg koldus szeme könnybe lábad, és megáld téged. Azt mondja: „Te még visszatérsz innen…”. Majd a kezedbe nyom egy apró, kopott amulettet. A matrózok kinevetnek, de érzed, hogy az amulett súlya több, mint egyszerű vasdarab.",
+      "choices": [
+        { "label": "Zsebre teszed, és elmész a kikötőbe", "next": "4" },
+        { "label": "Megkérdezed, mit jelent az amulett", "next": "17" }
+      ]
+    },
+    "9": {
+      "text": "Az öreg mesél a tenger szellemeiről, akik hajótöréseket idéznek elő, és a kapzsikat a mélybe rántják. Azt mondja, ha valaki áldozatot mutat be nekik, talán átengedik. A matrózok közül néhányan abbahagyják a nevetést, és zavartan fordítják el a fejüket.",
+      "choices": [
+        { "label": "Komolyan veszed a szavait, és megindulsz a kikötőbe", "next": "4" },
+        { "label": "Rákérdezel, milyen áldozat kell", "next": "18" }
+      ]
+    },
+    "10": {
+      "text": "A kapitány nagy darab, félszemű ember, akinek hangja betölti az egész kikötőt. Éppen matrózokat keres a hajójára, mert veszélyes útra indul. Amikor meglát, felmérőn végigmér. „Te! Van bátorságod tengerre szállni?” – kérdi.",
+      "choices": [
+        { "label": "Csatlakozol a hajójához", "next": "19" },
+        { "label": "Visszautasítod, és tovább keresgélsz", "next": "11" }
+      ]
+    },
+    "11": {
+      "text": "A két férfi egy régi pergamentérképet tanulmányoz, rajta egy koponya alakú sziget rajzával. Amikor közelebb lépsz, gyorsan elrejtik. „Mit akarsz, idegen?” – mordul rád az egyik, akinek arcán sebhely húzódik.",
+      "choices": [
+        { "label": "Barátságosan bemutatkozol", "next": "20" },
+        { "label": "Megpróbálod ellopni a térképet", "next": "21" },
+        { "label": "Elhátrálsz, és inkább más útra lépsz", "next": "12" }
+      ]
+    },
+    "12": {
+      "text": "Az éneklő hajón vidám matrózok koccintanak. Egy vörös hajú nő áll a fedélzeten, aki bemutatkozik: „Én vagyok Anne, a kapitány. Kincset keresünk, és szükségünk van jó emberekre.”. Mosolya csábító, de a szemeiben veszély csillog.",
+      "choices": [
+        { "label": "Elfogadod az ajánlatát", "next": "22" },
+        { "label": "Elutasítod, és máshova indulsz", "next": "10" }
+      ]
+    },
+    "13": {
+      "text": "A matróz hosszasan mesél a szigetről, ahol a dzsungel mélyén egy barlang rejtőzik. A barlangban ősi csapdák és szellemek várják a vakmerőket. Azt mondja, csak erős szövetségesekkel érdemes odamenni.",
+      "choices": [
+        { "label": "A kikötőbe indulsz szövetségeseket keresni", "next": "4" },
+        { "label": "Azonnal útra kelsz a sziget felé", "next": "23" }
+      ]
+    },
+    "14": {
+      "text": "Megpróbálod elvenni a térképet, de a matróz részegnek tűnt, valójában éles késsel védekezik. Megsérülsz, és a kocsma népe rád támad. Végül kidobnak az utcára, véresen és gyengén.",
+      "choices": [
+        { "label": "Visszavonulsz, és inkább máshol keresel információt", "next": "4" }
+      ]
+    },
+    "15": {
+      "text": "Kifizeted a kocsmárost, aki morogva hagy békén. A matróz megnyugszik, és odaad egy kis térképdarabot, amin egy átjáró van jelölve. Azt mondja: „Ez minden, amit tudok.”.",
+      "choices": [
+        { "label": "Megindulsz a kikötőbe", "next": "4" }
+      ]
+    },
+    "16": {
+      "text": "A verekedés gyorsan kitör, de a túlerő legyűr. A kocsmáros kidobat az utcára. Sérülten, de még állva botorkálsz a kikötő felé. Az este hidegebbnek tűnik, és úgy érzed, mindenki figyel.",
+      "choices": [
+        { "label": "A kikötőbe mész", "next": "4" }
+      ]
+    },
+    "17": {
+      "text": "Az öreg azt mondja, az amulett védelmet nyújt a szellemekkel szemben. De figyelmeztet: csak egyszer használhatod, utána eltűnik. A szemedbe néz, és halkan suttogja: „Ne pazarold el!”.",
+      "choices": [
+        { "label": "Zsebre vágod, és a kikötőbe mész", "next": "4" }
+      ]
+    },
+    "18": {
+      "text": "Az öreg azt mondja, hogy egy csepp vér vagy egy drága ékszer lehet áldozat. „A szellemek szeretik az értékeset” – teszi hozzá. Az emberek körülötted egyre csendesebbek, mintha félnének.",
+      "choices": [
+        { "label": "Megindulsz a kikötőbe", "next": "4" }
+      ]
+    },
+    "19": {
+      "text": "Csatlakozol a kapitány hajójához. A fedélzeten kemény matrózok gyakorolnak karddal, a kapitány büszkén mutatja a hajót. „Ez a mi erősségünk, és a kincs a célunk!”.",
+      "choices": [
+        { "label": "Elindultok a szigetre", "next": "23" },
+        { "label": "Mégis elhagyod a hajót, mielőtt kifutna", "next": "12" }
+      ]
+    },
+    "20": {
+      "text": "A férfiak gyanakodva néznek, de végül elmondják, hogy a térkép egy szigetre vezet, ahol állítólag kincs rejtőzik. Ha velük tartasz, részesedést ígérnek.",
+      "choices": [
+        { "label": "Elfogadod", "next": "23" },
+        { "label": "Elutasítod, és mást keresel", "next": "12" }
+      ]
+    },
+    "21": {
+      "text": "Megpróbálod ellopni a térképet, de a férfiak azonnal rajtad ütnek. Rövid küzdelem után a földre kerülsz, és csak alig tudsz elmenekülni. Sérülten botorkálsz tovább.",
+      "choices": [
+        { "label": "A kikötő felé mész", "next": "4" }
+      ]
+    },
+    "22": {
+      "text": "Anne kapitány hajója vidám és kegyetlen matrózokkal van tele. A fedélzeten mindenki énekel, de érzed a feszültséget is. Anne azt mondja: „A sziget felé tartunk, készülj fel az útra!”.",
+      "choices": [
+        { "label": "Elindultok a szigetre", "next": "23" }
+      ]
+    },
+    "23": {
+      "text": "Néhány nappal később a hajó megérkezik a titokzatos szigetre. A partot sűrű dzsungel borítja, és a távolból vízesések moraját hallani. A matrózok idegesek, mert állítólag szellemek járják a helyet.",
+      "choices": [
+        { "label": "Bemész a dzsungelbe", "next": "24" },
+        { "label": "A parton maradsz és kutatsz", "next": "25" },
+        { "label": "Éjszakára tábort ütsz", "next": "26" }
+      ]
+    },
+    "24": {
+      "text": "A dzsungel sűrű és fullasztó, különös hangok szűrődnek mindenfelől. Egy ösvény háromfelé ágazik: az egyik barlanghoz vezet, a másik vízeséshez, a harmadik mélyebbre a dzsungelbe.",
+      "choices": [
+        { "label": "A barlanghoz mész", "next": "27" },
+        { "label": "A vízesés felé indulsz", "next": "28" },
+        { "label": "Mélyebbre mész a dzsungelbe", "next": "29" }
+      ]
+    },
+    "25": {
+      "text": "A parton kutatva régi hajóroncsokat találsz. Egy ládát fedezel fel, tele arannyal, de amint kinyitod, a matrózok rád rontanak, és megosztoznak a zsákmányon. Te csak kevés pénzzel menekülsz el.",
+      "choices": [
+        { "label": "Elhajózol, csalódottan", "next": "30" }
+      ]
+    },
+    "26": {
+      "text": "Éjszaka furcsa zajokra ébredsz. Árnyékok mozognak a fák között, és halkan suttogó hangokat hallasz. A matrózok pánikba esnek, néhányan eltűnnek a sötétben.",
+      "choices": [
+        { "label": "A dzsungelbe mész, hogy kiderítsd", "next": "24" },
+        { "label": "Elhajózol, mert túl veszélyes", "next": "30" }
+      ]
+    },
+    "27": {
+      "text": "A barlang mélyén csapdák és csontvázak hevernek. Egy kőoltáron kincsesláda áll. Amikor megközelíted, szellemek jelennek meg, és jeges hangon követelnek áldozatot.",
+      "choices": [
+        { "label": "Áldozatot mutatsz be", "next": "31" },
+        { "label": "Megpróbálsz harcolni velük", "next": "32" },
+        { "label": "Megfutsz", "next": "30" }
+      ]
+    },
+    "28": {
+      "text": "A vízesés mögött titkos barlangra bukkansz. Odabent régi kincsek hevernek, de egy óriási kígyó őrzi. A matrózok rémülten hátrálnak.",
+      "choices": [
+        { "label": "Megküzdesz a kígyóval", "next": "33" },
+        { "label": "Visszavonulsz", "next": "30" }
+      ]
+    },
+    "29": {
+      "text": "Mélyebbre hatolsz a dzsungelbe, ahol egy elhagyott falu romjaira lelsz. A házak omladoznak, de egy templom még áll. Belül szobrok őrzik az ősi kincset.",
+      "choices": [
+        { "label": "Belépsz a templomba", "next": "34" },
+        { "label": "Elhagyod a helyet", "next": "30" }
+      ]
+    },
+    "30": {
+      "text": "Elhajózol a szigetről. Bár épségben hazatérsz, kincs nélkül. Egy részeg matróz a kikötőben kinevet: „A szigeten járni, és üres kézzel visszatérni? Szégyen!”.",
+      "choices": []
+    },
+    "31": {
+      "text": "Áldozatot mutatsz be, és a szellemek lassan eltűnnek. A ládát kinyitod, tele arannyal és drágakövekkel. A hajóddal gazdagon térsz vissza, legendává válva a kikötőben.",
+      "choices": []
+    },
+    "32": {
+      "text": "Harcolni próbálsz, de a szellemek túl erősek. Hideg karjuk megragad, és a sötétségbe rántanak. Soha többé nem látnak viszont.",
+      "choices": []
+    },
+    "33": {
+      "text": "A matrózok segítségével legyőzöd a kígyót, és a kincset megszerzed. A hajóra visszatérve ünnepeltek, és gazdagon térsz haza.",
+      "choices": []
+    },
+    "34": {
+      "text": "A templomban egy ősi trónon ülő szellem király fogad. Azt mondja: „Ha hűséget esküszöl, megkapod a kincset, de sosem hagyhatod el a szigetet.”.",
+      "choices": [
+        { "label": "Elfogadod az ajánlatát", "next": "35" },
+        { "label": "Visszautasítod", "next": "36" }
+      ]
+    },
+    "35": {
+      "text": "Hűséget esküszöl, és a kincs a tiéd lesz. De örökre a szigeten maradsz, mint a szellem szolgája. A neved lassan feledésbe merül.",
+      "choices": []
+    },
+    "36": {
+      "text": "Visszautasítod, és a szellem dühösen elűz. Kincs nélkül, de élve hagyod el a szigetet. Talán egy új kaland vár rád másutt.",
+      "choices": []
+    }
+  }
+}

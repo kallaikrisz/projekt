@@ -1,0 +1,29 @@
+{
+  "title": "Erdei kaland",
+  "start": "1",
+  "chapters": {
+    "1": {
+      "text": "Belépsz az erdőbe. Balra sűrű bozót, jobbra ösvény.",
+      "choices": [
+        { "label": "Balra mész", "next": "2" },
+        { "label": "Jobbra mész", "next": "3" }
+      ]
+    },
+    "2": {
+      "text": "A bozótban egy vadmacska támad rád.",
+      "choices": [
+        { "label": "Visszamész az ösvényre", "next": "1" }
+      ]
+    },
+    "3": {
+      "text": "Az ösvényen egy tündér vár rád.",
+      "choices": [
+        { "label": "Beszélgetsz vele", "next": "4" }
+      ]
+    },
+    "4": {
+      "text": "Megtalálod a kincset! Vége.",
+      "choices": []
+    }
+  }
+}
