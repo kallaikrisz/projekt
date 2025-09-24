@@ -1,0 +1,97 @@
+
+{
+  "title": "A Vihar Szellemei",
+  "start": "1",
+  "chapters": {
+    "1": {
+      "text": "A tenger végtelennek tűnik a horizonton, a szürke felhők összefolynak a vízzel, mintha maga a világ határát képezték volna. A vihar közeledik, és a hűvös szél egyre erősebben csap a bőrödnek. A hullámok hatalmasra nőnek, és az égen egy fekete hajó körvonalai sejlenek fel. Az elhagyatott kikötőben a halászházak mellett néhány megfáradt matróz próbál menedéket keresni. Egy öreg kapitány lép oda hozzád, haja szétverve, arcán barázdák, amik éppúgy elárulják, hogy ismeri a tenger haragját, mint azt is, hogy ma este valami nagy dolog fog történni. A hangja reszelős, de határozott: 'Ha most nem lépsz, el fogsz veszni.'",
+      "choices": [
+        { "label": "Megkérdezed, mit jelent ez", "next": "2" },
+        { "label": "Elindulsz a hajóhoz, hogy elkerüld a vihart", "next": "3" },
+        { "label": "Figyelmen kívül hagyod az öreg figyelmeztetését, és beülsz egy kocsmába", "next": "4" }
+      ]
+    },
+    "2": {
+      "text": "A kapitány mélyen a szemedbe néz, és halkan beszél: 'A fekete hajó nem az, aminek látszik. Ha ma este még épségben hazaérsz, ne keresd. Ők nem emberek.' Az arca komoly, és a szél egy pillanatra megáll, mintha az egész tenger elcsendesedett volna. Aztán folytatja: 'Már három napja követnek minket. De ha segítesz nekem, még talán megmenekülhetsz.'",
+      "choices": [
+        { "label": "Elmondod neki, hogy nem hiszel a mesékben, és inkább a saját utad járnád", "next": "5" },
+        { "label": "Elfogadod a kapitány ajánlatát, és segítesz neki", "next": "6" }
+      ]
+    },
+    "3": {
+      "text": "A hajó, amit választottál, egy elhasználódott kalózhajó, amelynek minden egyes gerendája és vaslánca remegett a vihar erejétől. A vitorlák félig felhúzva, a kormánykerék megmozdul, de a legénység láthatóan nem törődik a viharral. Az egyik matróz, akit Lénárdnak hívnak, ránéz, és felnevet: 'Ha tudnád, mi vár ránk...' De nem folytatja, csak a kormánykeréknél marad, miközben a fekete hajó közeledik. A tenger habjai felforrósodnak körülöttetek.",
+      "choices": [
+        { "label": "Megkérdezed, mit tud Lénárd a fekete hajóról", "next": "7" },
+        { "label": "Előre megyek a fedélzetre, és megpróbálom felkészíteni a hajót a csatára", "next": "8" },
+        { "label": "Leugrasz a vízbe, hogy elkerüld a közelgő csatát", "next": "9" }
+      ]
+    },
+    "4": {
+      "text": "A kocsma tele van részeg matrózokkal és halászokkal, akik mindegyike túlélte valamilyen rettenetes tengeri vihar emlékét. Az egyik régi harcos a pultnál hánykolódik, és egy-egy szót kiejt: 'A Fekete Hajó... szellemek.' A kocsma tulajdonosa, egy fiatal nő, megpróbálja elhallgattatni őt, miközben figyelmesen rád pillant. 'Ne hallgass rájuk, fiam, azok csak mesék. A tenger mindig ilyen.'",
+      "choices": [
+        { "label": "Kérdezed a nőt, hogy valóban ilyen gyakoriak-e a tengeri szellemek", "next": "10" },
+        { "label": "Felállsz és kimegyek, hogy a saját szememmel lássam a fekete hajót", "next": "11" }
+      ]
+    },
+    "5": {
+      "text": "Ahogy elhagyod a kikötőt, a hajó körvonalai eltűnnek a ködben. A vihar elcsendesedik, mintha sosem lett volna. A kapitány figyelmeztetése elhangzott, de a kíváncsiság túl nagy volt, hogy ne keresd meg azt, amit ő titokban akart mutatni. A tengeren azonban egy újabb hajó bukkan fel a ködben – egy újabb titok, amit sosem fogsz megfejteni.",
+      "choices": [
+        { "label": "A történet véget ért", "next": "end" }
+      ]
+    },
+    "6": {
+      "text": "A kapitány veled együtt elindul, és hajót keres, hogy harcoljatok a fekete hajóval. Miközben küzdötök, a víz szörnyetegei törnek fel a tengerből, de a kapitány a végsőkig harcol. Sikerült megsemmisíteni a fekete hajót, de a kapitány életét vesztette a harcban. Azonban te túlélheted, és a legendák szerint az őszinte bátorság meghozza a kívánt jutalmat: az eltemetett kincs megtalálását.",
+      "choices": [
+        { "label": "A kincs megszerzésével véget ér a történet", "next": "end" }
+      ]
+    },
+    "7": {
+      "text": "Lénárd összeszorítja a fogait, és elmondja neked, hogy a fekete hajóval egy elátkozott kalóz szellemei navigálnak. Mivel az ősi varázslatok elárasztják a tengert, csak azok, akik hajlandók szembenézni a halállal, tudják megállítani őket. 'A választásod a tiéd: a szellemek legyőzése, vagy elbújsz a viharban.'",
+      "choices": [
+        { "label": "Harcolsz a szellemekkel", "next": "12" },
+        { "label": "Elbújsz és elkerülöd a harcot", "next": "13" }
+      ]
+    },
+    "8": {
+      "text": "A csata véres és heves, a fekete hajó hatalmas kísértetei minden egyes támadással közelebb kerülnek. A tenger habjai, mint élő szörnyek, nyelik el a hajót, de egy pillanatra sikerül elérned, hogy megfordítsátok a helyzetet. A fekete hajó végül elhagyja a csatatéret, de csak egyesek térnek vissza a partokhoz épségben.",
+      "choices": [
+        { "label": "A csata véget ért, de a túlélők örökre visszavonulnak", "next": "end" }
+      ]
+    },
+    "9": {
+      "text": "A víz hideg, és a hullámok szinte azonnal elnyelnek, de a tenger megkímél. Az éjszaka csendjében valami különös érzés lesz úrrá rajtad: a fekete hajó eltűnt, de a titok örökre veled marad.",
+      "choices": [
+        { "label": "A történet véget ért", "next": "end" }
+      ]
+    },
+    "10": {
+      "text": "A nő elmondja, hogy az ilyen történetek nem szokatlanok a kikötőkben, de egyetlen kalóz sem tért vissza a fekete hajóról. Az éjszaka úgy tűnik, mintha az egész város csendben figyelne a közelgő viharra.",
+      "choices": [
+        { "label": "Újra kimegyek, hogy szembenézzek a fekete hajóval", "next": "11" }
+      ]
+    },
+
+
+"11": {
+"text": "A fekete hajó valójában egy kísérteties látomás, amely elvonul. A vihar még mindig tombol, de a csata már nem az, amit vártál. Az ármányok, amit szemtanúja voltál, sosem fogják elhagyni a partokat.",
+"choices": [
+{ "label": "A történet véget ért", "next": "end" }
+]
+},
+"12": {
+"text": "A szellemek támadása elkerülhetetlen, és bár minden egyes támadás egyre erősebb, te és Lénárd megpróbáltok kitartani. De a tenger hőseiként a legnagyobb árat kell fizetned: a sorsodat, hogy a hajó kísértetként örökre a tenger alján pihenjen.",
+"choices": [
+{ "label": "A történet véget ért", "next": "end" }
+]
+},
+"13": {
+"text": "A szellemek elvonulnak, de az emlékeik örökre kísérteni fognak. A hajó megmenekült, de a csendes éjszaka után más következmények is jöhetnek. A tengeri kísértetek, amik üldöztek, talán nem hagynak el örökre.",
+"choices": [
+{ "label": "A történet véget ért", "next": "end" }
+]
+},
+"end": {
+"text": "A történet véget ért. Az út, amit választottál, mindörökre meghatározta életedet, de mindig ott maradnak a tengeri legendák, amiket talán még egyszer megpróbálsz megfejteni egy új kaland során."
+}
+}
+}

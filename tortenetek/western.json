@@ -1,0 +1,223 @@
+{
+  "title": "A por és a vér útjai",
+  "start": "1",
+  "chapters": {
+    "1": {
+      "text": "A nap perzselőn süt a kis vadnyugati város, Dust Creek poros utcáira. A szél végigsodor egy száraz bokrot a főtéren, ahol egy nyikorgó kocsmaajtó tárva-nyitva áll. A verandán egy öreg aranyásó pipázik, miközben a szalonban zongora szól, és egy ideges boltos próbálja eladni portékáját az arra járóknak. A helyiek feszült tekintettel figyelnek, mert nemrégiben hír jött: a rettegett Black Jack bandája közeledik. Te, egy magányos utazó, most érkeztél a városba, és döntened kell, merre indulsz.",
+      "choices": [
+        { "label": "Belépsz a kocsmába", "next": "2" },
+        { "label": "Az aranyásóhoz lépsz", "next": "3" },
+        { "label": "A bolthoz mész", "next": "4" }
+      ]
+    },
+    "2": {
+      "text": "A kocsma levegője fülledt, a zongorista unottan pengeti a billentyűket. A sarokban egy részeg cowboy alszik az asztalra borulva, miközben egy nő énekel a színpadon. A pult mögött a kocsmáros méreget téged, mintha bajt sejtene. A városiak halk beszélgetése megszakad, mikor belépsz.",
+      "choices": [
+        { "label": "Italt rendelsz", "next": "5" },
+        { "label": "Megszólítod a kocsmárost", "next": "6" },
+        { "label": "A részeg cowboyhoz mész", "next": "7" }
+      ]
+    },
+    "3": {
+      "text": "Az öreg aranyásó felnéz, mikor közeledsz. Szakálla bozontos, szeme fáradt, de kíváncsiság csillan benne. \"Te új arc vagy errefelé...\" – morogja. Elmeséli, hogy a Black Jack banda már többször kifosztotta a környéket, és a városiak félnek szembeszállni velük.",
+      "choices": [
+        { "label": "Kérdezd ki Black Jackről", "next": "8" },
+        { "label": "Kérj tanácsot, mit tegyél", "next": "9" },
+        { "label": "Hagyd ott, és menj a bolthoz", "next": "4" }
+      ]
+    },
+    "4": {
+      "text": "A boltos idegesen pakolja a portékáit: konzervek, puskapor, szárított hús és fegyverek sorakoznak a polcokon. Mikor meglát, rögtön megszólít: \"Utazó! Vegyél valamit, mielőtt a banda ideér!\". Látszik rajta, hogy félelme erősebb, mint az üzleti érzéke.",
+      "choices": [
+        { "label": "Vásárolsz fegyvert", "next": "10" },
+        { "label": "Beszélgetsz vele a bandáról", "next": "11" },
+        { "label": "Kimegyek és visszatérek a főtérre", "next": "12" }
+      ]
+    },
+    "5": {
+      "text": "Rendelsz egy pohár whiskyt, a kocsmáros gyanakodva tolja eléd. Az ital erős, de bátorságot ad. A háttérben a cowboy hirtelen felriad, és rád mered. \"Te nem idevalósi vagy...\" – mondja rekedten.",
+      "choices": [
+        { "label": "Beszédbe elegyedsz a cowboyjal", "next": "7" },
+        { "label": "Kifizeted az italt és kimész", "next": "12" }
+      ]
+    },
+    "6": {
+      "text": "A kocsmáros közelebb hajol, és suttogva mondja: \"Hallom, jó a célzásod... lehet, szükség lesz rád, ha a banda tényleg ideér.\" Felajánlja, hogy találkozz este a kocsma mögött, ha segíteni akarsz.",
+      "choices": [
+        { "label": "Belemész az ajánlatba", "next": "13" },
+        { "label": "Elutasítod, és visszatérsz a főtérre", "next": "12" }
+      ]
+    },
+    "7": {
+      "text": "A részeg cowboy lassan magához tér, és bemutatkozik: Joe vagyok... régen a seriff mellett szolgáltam.\" Hangjában szomorúság bujkál. Azt mondja, a városnak hősre van szüksége, különben minden elveszett.",
+      "choices": [
+        { "label": "Megkéred, meséljen a bandáról", "next": "14" },
+        { "label": "Kihívod egy baráti kártyajátékra", "next": "15" },
+        { "label": "Otthagyod, és kimentek a főtérre", "next": "12" }
+      ]
+    },
+    "8": {
+      "text": "Az aranyásó mesél: \"Black Jack könyörtelen. Nem csak rabol, de azokat is elteszi láb alól, akik szembeszállnak vele. Van egy rejtekhelyük a közeli szurdokban.\" A hangja reszket, miközben a földet bámulja.",
+      "choices": [
+        { "label": "Megkérdezed a szurdok pontos helyét", "next": "16" },
+        { "label": "Visszamész a főtérre", "next": "12" }
+      ]
+    },
+    "9": {
+      "text": "Az öreg szeme villan: \"Ha okosan akarsz játszani, gyűjts szövetségeseket. Egyedül senki sem győzhette le Black Jacket.\" A szavai nyomasztóan hatnak rád.",
+      "choices": [
+        { "label": "Megfogadod a tanácsot és a kocsmába mész", "next": "2" },
+        { "label": "Mégis a bolt felé indulsz", "next": "4" }
+      ]
+    },
+    "10": {
+      "text": "A boltos előhúz egy fényes revolvert, és sóhajtva adja át, miközben a pénzt markolja. \"Most már legalább van esélyed...\" – mondja. A fegyver a kezedben súlyosnak tűnik.",
+      "choices": [
+        { "label": "Elteszed a fegyvert és visszamész a főtérre", "next": "12" },
+        { "label": "Megkérdezed, hallott-e a szurdokról", "next": "11" }
+      ]
+    },
+    "11": {
+      "text": "A boltos idegesen hadar: \"Igen, tudok a szurdokról... senki nem mer arra járni. A banda ott tartja a zsákmányát.\" Rettegés ül ki az arcára.",
+      "choices": [
+        { "label": "Elindulsz a szurdok felé", "next": "16" },
+        { "label": "Visszamész a főtérre", "next": "12" }
+      ]
+    },
+    "12": {
+      "text": "Újra a főtéren vagy. A nap már lefelé tart, a levegő feszültséggel teli. Az aranyásó még mindig ott ül, a boltos zárja a boltját, és a kocsmából hangosabb a zene.",
+      "choices": [
+        { "label": "Visszamész a kocsmába", "next": "2" },
+        { "label": "Beszélsz újra az aranyásóval", "next": "3" },
+        { "label": "Elindulsz a város szélén a szurdok felé", "next": "16" }
+      ]
+    },
+    "13": {
+      "text": "Este a kocsma mögött találkozol a kocsmárossal, aki mellett ott áll két fegyveres városi férfi. \"Ha együtt állunk ki, talán van esélyünk\" – mondja. Úgy tűnik, szövetséget ajánl.",
+      "choices": [
+        { "label": "Elfogadod a szövetséget", "next": "17" },
+        { "label": "Elutasítod, inkább egyedül indulsz", "next": "16" }
+      ]
+    },
+    "14": {
+      "text": "Joe halkan mesél: \"Black Jack valaha seriffhelyettes volt, de elárulta a várost. A bandája kegyetlen, és mindenkit elhallgattat, aki ellene szegül.\" Látszik rajta, hogy fél, de közben düh is lobban a szemében.",
+      "choices": [
+        { "label": "Megkéred, hogy csatlakozzon hozzád", "next": "18" },
+        { "label": "Elbúcsúzol és visszamész a főtérre", "next": "12" }
+      ]
+    },
+    "15": {
+      "text": "Előveszitek a kártyát. Joe keze remeg, de szeme újra felcsillan a régi idők emlékétől. Közben a háttérben egy sötét ruhás idegen figyel benneteket, aki később talán fontos lehet.",
+      "choices": [
+        { "label": "Megszólítod az idegent", "next": "19" },
+        { "label": "Folytatod a játékot Joe-val", "next": "20" }
+      ]
+    },
+    "16": {
+      "text": "Elindulsz a város szélén fekvő szurdok felé. A nap már lebukott, a csillagok hidegen ragyognak az égen. A szurdokban sötét árnyak mozognak, és hallani a banda nevetését a távolból. Szíved gyorsabban ver, ahogy közeledsz.",
+      "choices": [
+        { "label": "Lopakodva közelítesz", "next": "21" },
+        { "label": "Fegyverrel a kézben rontasz rájuk", "next": "22" },
+        { "label": "Visszafordulsz a városba", "next": "12" }
+      ]
+    },
+    "17": {
+      "text": "Elfogadod a szövetséget. A kocsmáros és a két fegyveres melléd áll. Úgy érzik, végre van esélyük visszaszerezni a várost. A közös terv: megtámadjátok a bandát a szurdokban.",
+      "choices": [
+        { "label": "Elindultok a szurdok felé", "next": "21" },
+        { "label": "Elhalasztjátok, és reggelig vártok", "next": "23" }
+      ]
+    },
+    "18": {
+      "text": "Joe lehajtja a fejét, majd lassan bólint: \"Ha tényleg felveszed velük a harcot, számíthatsz rám.\" Egy remegő kezű, de tapasztalt fegyverest nyertél szövetségesnek.",
+      "choices": [
+        { "label": "Joe-val a szurdok felé indulsz", "next": "21" },
+        { "label": "Előbb még felkészültök a boltban", "next": "4" }
+      ]
+    },
+    "19": {
+      "text": "Az idegen közelebb lép. Magas, sötét ruhás férfi, hideg tekintettel. Bemutatkozik: \"Nevem Crowley. Vándor fejvadász vagyok.\" A szavai súlyosak, és érezni rajta a tapasztalatot.",
+      "choices": [
+        { "label": "Megkéred, csatlakozzon hozzád", "next": "24" },
+        { "label": "Nem bízol benne, visszatérsz Joe-hoz", "next": "20" }
+      ]
+    },
+    "20": {
+      "text": "Joe és te folytatjátok a játékot. Egyre oldottabb lesz, és mesél a régi időkről, mikor még béke volt a városban. Lassan rájössz, hogy Joe-ban még maradt bátorság, és talán hajlandó újra harcolni.",
+      "choices": [
+        { "label": "Megkéred, hogy csatlakozzon hozzád", "next": "18" },
+        { "label": "Elköszönsz, és visszatérsz a főtérre", "next": "12" }
+      ]
+    },
+    "21": {
+      "text": "A szurdok mélyén meglátod a Black Jack bandáját: tábortüzet raktak, és hangosan mulatnak. Látod a zsákmányt is: ládák arannyal, élelmiszerrel és fegyverekkel. Most kell döntened, hogyan tovább.",
+      "choices": [
+        { "label": "Támadást indítasz", "next": "25" },
+        { "label": "Megpróbálod elcsenni a ládákat", "next": "26" },
+        { "label": "Megvárod, amíg elalszanak", "next": "27" }
+      ]
+    },
+    "22": {
+      "text": "Rárontasz a bandára fegyverrel. De a túlerő hamar felülkerekedik rajtad. Pár pillanat múlva a földre kerülsz, és hallod a gúnyos kacajt. Ez a kaland itt véget ér – vereséget szenvedtél.",
+      "choices": []
+    },
+    "23": {
+      "text": "Reggelre a városiak közül még többen csatlakoznak hozzátok. Egy kisebb hadsereged lett. A nap felkelte után indultok a szurdok felé, ahol biztosan összecsapás vár.",
+      "choices": [
+        { "label": "Támadást indítotok a szurdokban", "next": "25" }
+      ]
+    },
+    "24": {
+      "text": "Crowley lassan bólint: \"Régóta üldözöm Black Jacket. Ha te is a nyomába szegődsz, számíthatsz rám.\" Egy veszélyes, de tapasztalt szövetségest nyertél.",
+      "choices": [
+        { "label": "Crowley-val a szurdok felé indulsz", "next": "21" },
+        { "label": "Előbb még erősítést keresel", "next": "12" }
+      ]
+    },
+    "25": {
+      "text": "A harc elkezdődik! Lövések dördülnek, a por és a kiáltások betöltik a szurdokot. Az első percek döntik el a csata kimenetelét. Ha erős a csapatod, van esély a győzelemre, de ha egyedül jöttél, kevés.",
+      "choices": [
+        { "label": "Folytatod a harcot", "next": "28" },
+        { "label": "Megpróbálsz visszavonulni", "next": "29" }
+      ]
+    },
+    "26": {
+      "text": "Óvatosan megközelíted a ládákat. Az egyik bandita azonban észrevesz, és riasztja a többieket. Nincs más választásod, harcba keveredsz.",
+      "choices": [
+        { "label": "Felveszed a harcot", "next": "25" },
+        { "label": "Futva menekülsz vissza a városba", "next": "29" }
+      ]
+    },
+    "27": {
+      "text": "Kivárod, míg a banda tagjai elcsendesednek és elalszanak. A tábortűz lassan kialszik, csak a tücskök ciripelése hallatszik. Most van esélyed, hogy döntést hozz.",
+      "choices": [
+        { "label": "Elcsened a ládákat", "next": "30" },
+        { "label": "Meglepő támadást indítasz", "next": "28" }
+      ]
+    },
+    "28": {
+      "text": "A lövöldözés hevében hősiességed kiemelkedik. Ha szövetségeseid vannak, együtt legyőzhetitek a bandát. Ha egyedül vagy, a túlerő lassan elnyom, de még van esély egy hősies áldozatra.",
+      "choices": [
+        { "label": "Győzelemre törsz", "next": "31" },
+        { "label": "Elbuksz a túlerőben", "next": "32" }
+      ]
+    },
+    "29": {
+      "text": "Futva menekülsz a város felé. A banda nem üldöz sokáig, inkább a zsákmányát őrzi. A városiak csalódottan néznek rád, de legalább életben maradtál. Ez egy keserédes befejezés.",
+      "choices": []
+    },
+    "30": {
+      "text": "Sikerül megszerezned a ládákat, és lóval visszamenekülsz a városba. A lakók ünnepelnek, hiszen a zsákmány visszakerült. Black Jack azonban életben maradt, és egy nap visszatérhet.",
+      "choices": []
+    },
+        "31": {
+      "text": "A harc végén a por leülepszik, a lövések elhalkulnak. Te és szövetségeseid diadalmasan álltok a tábortűz mellett: Black Jack és bandája a földön hever, legyőzve. A város újra szabad, és a lakók hősként ünnepelnek. Ez a történet dicsőséges befejezést nyert.",
+      "choices": []
+    },
+    "32": {
+      "text": "Bár bátran harcoltál, a túlerő végül elnyomott. Utolsó lövésed még célba talál, mielőtt a sötétség elnyel. Nevedet talán emlegetik majd, de tested a szurdokban marad. Ez a kaland tragikus véget ért.",
+      "choices": []
+    }
+  }
+}
+

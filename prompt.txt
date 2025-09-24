@@ -1,0 +1,62 @@
+Készíts egy interaktív kalandjáték történetet a következő szabályok szerint:
+
+1. A történet TÉMÁJA: [vadnyugat]  
+   – Például: western, középkori lovagok, sci-fi űrkaland, szellemjárta kastély, kalózok a tengeren stb.  
+   – A történet minden eleme ehhez a témához igazodjon.  
+
+2. A történet adatszerkezete JSON legyen, pontosan a következő formátumban:  
+{
+  "title": "A történet címe (mindig kapcsolódjon a témához)",
+  "start": "1",
+  "chapters": 
+{
+1": 
+{
+"text": "Az első fejezet részletes leírása...",
+"choices": 
+[
+{ "label": "Választási lehetőség szövege", "next": "2" },
+{ "label": "Másik választás", "next": "3" }
+]
+},
+"2": { "text": "...", "choices": [...] },
+"3": { "text": "...", "choices": [...] }
+}
+}
+
+3. Követelmények a fejezetekhez:
+   - A **nyitófejezet (1)** mindig legyen részletes: írja le a helyszínt, a környezetet, a hangulatot, mellékszereplőket (akik nem mindig fontosak, de színesítik a sztorit).
+   - Minden fejezet legyen legalább 3–5 mondat hosszú, hogy átélhető legyen.
+   - Mindig legyen legalább **2-3 választási lehetőség**, de néha lehet 4 vagy több is.
+   - Legyenek **mellékszereplők** (pl. öreg aranyásó, ideges boltos, részeg matróz) – ezek nem feltétlenül kulcsszereplők, de színesítik a történetet.
+   - Legyen a történetnek **többféle lezárása**:
+       - pozitív (siker, győzelem, barátság, kincs megtalálása, túlélés),
+       - negatív (veszteség, vereség, halál, kudarc),
+       - semleges (pl. visszavonulás, feladás, új kaland kezdete máshol).
+
+4. Formátum:
+   - A kulcsok mindig szöveges számok legyenek: "1", "2", "3"...
+   - A `text` mezőben teljes mondatokat írj.
+   - A `choices` tömbben mindig legyen `label` és `next`.
+
+5. Példa a választási lehetőségekre:
+   "choices": [
+     { "label": "Kimegy a kocsmából", "next": "5" },
+     { "label": "Leül az öreg aranyásó mellé", "next": "6" },
+     { "label": "Kihívja párbajra a verekedőt", "next": "7" }
+   ]
+
+6. A történet ne legyen túl rövid:
+   - Minimum 30 fejezet.
+   - Maximum kb. 45–50 fejezet.
+
+Fontos szabály:
+- A történetben ne legyen végtelen körforgás.
+- Ha egy fejezetből másik fejezetbe ugrunk, ne vezessen vissza ugyanoda közvetlenül (kivéve ha ez egy tudatos döntés, pl. "visszamész a főtérre").
+- A történet haladjon előre, és mindig közelítsen egy végkifejlethez.
+- Legyen több különböző befejezés, de ne legyen végtelen visszaugrás ugyanazokra a fejezetekre.
+
+Nem kell kiírni, hogy nincs több választás, elég csak az, hogy a történet véget ért.
+
+Csak a JSON-t add vissza, magyarázat nélkül!
+

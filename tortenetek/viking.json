@@ -1,0 +1,516 @@
+{
+  "title": "A viking útja",
+  "start": "1",
+  "chapters": {
+    "1": {
+      "text": "A hideg északi szél végigsüvít a fjordon, miközben a hajód a kikötőben ringatózik. A faluban emberek sürögnek-forognak: a kovács kalapácsának csengése messze visszhangzik, egy részeg harcos dalolva tántorog a kocsma felé, a piac szélén egy öregasszony gyógynövényeket árul. Te vagy Bjorn, a fiatal viking harcos, aki most először készül nagyobb kalandra. A törzsfőnök tanácsát várod, de közben több út is előtted áll.",
+      "choices": [
+        { "label": "Elindulsz a törzsfőnök házához", "next": "2" },
+        { "label": "Betérsz a kocsmába, hogy híreket hallj", "next": "3" },
+        { "label": "Megállsz az öregasszonynál a gyógynövények miatt", "next": "4" }
+      ]
+    },
+    "2": {
+      "text": "A törzsfőnök háza nagy és erős fagerendákból épült. Belépve látod, ahogy a főnök tanácsot tart néhány öreg harcossal. Az asztalon térképek hevernek, rajtuk piros jelekkel jelölt falvak és tengeri útvonalak. A főnök rád néz, majd komoran megszólal: 'Bjorn, a világ nagyobb, mint hinnéd. Ideje, hogy válassz, merre indulj.'",
+      "choices": [
+        { "label": "Csatlakozol egy portyázó hajóhoz", "next": "5" },
+        { "label": "Vállalod, hogy a falut véded meg a közelgő támadástól", "next": "6" },
+        { "label": "Elhatározod, hogy először önállóan indulsz kisebb útra", "next": "7" }
+      ]
+    },
+    "3": {
+      "text": "A kocsma ajtaja nyikordulva nyílik, és meleg füstös levegő csap meg. A tűz mellett részeg harcosok vitatkoznak, egy fiatal bárd lantját pengeti, miközben történeteket mesél távoli vidékekről. A pultnál egy ideges kereskedő kínál bort és fűszereket, miközben azt suttogja: 'Délen gazdag városok várják, hogy kifosszák őket.'",
+      "choices": [
+        { "label": "Leülsz a bárd mellé és hallgatod történeteit", "next": "8" },
+        { "label": "Megkérdezed a kereskedőt a déli városokról", "next": "9" },
+        { "label": "Kihívsz egy részeg harcost erőpróbára", "next": "10" }
+      ]
+    },
+    "4": {
+      "text": "Az öregasszony asztalán különféle szárított növények, gyökerek és fiolák sorakoznak. Miközben válogatsz, mesélni kezd régi idők csatáiról és a vikingek dicső múltjáról. 'Az út, amit választasz, nem csak a tested próbálja meg, hanem a lelkedet is' – mondja sejtelmesen. A szemeid előtt mintha furcsa fény villanna.",
+      "choices": [
+        { "label": "Kérsz tőle útmutatást a jövődre", "next": "11" },
+        { "label": "Megveszel néhány gyógynövényt az útra", "next": "12" },
+        { "label": "Elköszönsz, és inkább a kikötőbe mész", "next": "13" }
+      ]
+    },
+    "5": {
+      "text": "A kikötőben egy nagy portyázó hajó áll, tele fegyverekkel és készletekkel. A kapitány, egy sebhelyes arcú veterán, rád méri tekintetét. 'Ha velünk jössz, idegen partok aranyát hozhatod haza, de az életed is ott hagyhatod.' A legénység már készül, dobok dübörögnek, a tenger sós szaga betölti az orrod.",
+      "choices": [
+        { "label": "Beszállsz a hajóra", "next": "14" },
+        { "label": "Mégis inkább maradsz a faluban", "next": "15" }
+      ]
+    },
+    "6": {
+      "text": "A falubeliek örülnek, hogy mellettük maradsz. Fegyvereket osztanak, az asszonyok élelmet készítenek, a gyerekek kíváncsian néznek rád. Az öreg kovács külön neked kovácsol egy új fejszét, amely súlyos, de jól illeszkedik a kezedbe. A törzsfőnök rád bízza a falusi őrség vezetését.",
+      "choices": [
+        { "label": "Felállítod az őrséget a falukapuhoz", "next": "16" },
+        { "label": "Kiképzed a fiatalokat harcra", "next": "17" },
+        { "label": "Éjjel felderítésre indulsz", "next": "18" }
+      ]
+    },
+    "7": {
+      "text": "Elhatározod, hogy önálló útra indulsz. Egy kisebb hajót választasz, amelyet pár barátod segít felszerelni. A kikötőben egy szűkszavú halász ajánlja, hogy vigyél magaddal némi sózott halat és friss vizet. A reggel ködös, a fjord lassan elnyeli a nap sugarait, amikor eltolod a hajót a partról.",
+      "choices": [
+        { "label": "Elindulsz kelet felé az ismeretlen szigetekre", "next": "19" },
+        { "label": "Nyugat felé tartasz, a nagyobb városok irányába", "next": "20" },
+        { "label": "Mégis visszamész tanácsot kérni a törzsfőnöktől", "next": "2" }
+      ]
+    },
+    "8": {
+      "text": "A bárd hosszú történetet mesél egy legendás kardról, amely állítólag egy óriás csontjai között rejtőzik a hegyekben. A dal közben néhány harcos figyelmesen hallgatja, és az egyik azt mondja: 'Ez ostoba mese, de ha igaz, gazdagság vár arra, aki megtalálja.'",
+      "choices": [
+        { "label": "Elhatározod, hogy megkeresed a kardot", "next": "21" },
+        { "label": "Nevetségesnek tartod, és inkább iszol a többiekkel", "next": "22" },
+        { "label": "Kérdezősködsz még a bárdnál", "next": "23" }
+      ]
+    },
+    "9": {
+      "text": "A kereskedő szeme idegesen villog, miközben lehalkítja a hangját. 'A déli városok gazdagok, de jól védettek. A falak magasak, a katonák fegyelmezettek. De ha találsz egy jó vezetőt, van esély a sikerre.' Felajánlja, hogy megmutat neked egy térképet, ha fizetsz érte.",
+      "choices": [
+        { "label": "Kifizeted a térképet", "next": "24" },
+        { "label": "Megpróbálod ellopni tőle", "next": "25" },
+        { "label": "Megköszönöd, és másfelé indulsz", "next": "26" }
+      ]
+    },
+    "10": {
+      "text": "Az egyik részeg harcos dühösen feláll, mikor kihívod. Az asztal felborul, a tömeg morajlik, a bárd abbahagyja a zenélést. 'Ha erősebb vagy nálam, a söröm a tiéd!' – kiáltja. A verekedés hamarosan kitör.",
+      "choices": [
+        { "label": "Megütöd teljes erőből", "next": "27" },
+        { "label": "Kijátszod ügyességgel és kitéréssel", "next": "28" },
+        { "label": "Mégis elállsz a küzdelemtől", "next": "29" }
+      ]
+    },
+    "11": {
+      "text": "Az öregasszony kártyákat húz elő, és remegő kézzel szétteríti őket az asztalon. A szimbólumok baljóslatúan villognak a gyertya fényében. 'Nagy próbatétel vár rád, Bjorn, ahol a bátorságod és az eszed egyaránt számít majd. Ha rosszul választasz, sötét vég vár rád.' A szavai beléd maródnak.",
+      "choices": [
+        { "label": "Megkérdezed, mit tegyél a siker érdekében", "next": "30" },
+        { "label": "Nem hiszel neki, és távozol", "next": "13" },
+        { "label": "Elfogadod az áldását és továbbmész", "next": "31" }
+      ]
+    },
+    "12": {
+      "text": "Néhány gyógynövényt vásárolsz: szárított zsályát, erősítő főzetet és egy különös gyökeret, amelyről azt mondja, megvéd a gonosz szellemektől. Az öregasszony komolyan a szemedbe néz, majd halkan suttog: 'Ne feledd, minden döntésed ára van.'",
+      "choices": [
+        { "label": "Megköszönöd és a kikötőbe mész", "next": "13" },
+        { "label": "Megkérdezed, mit jelent az ára van", "next": "32" }
+      ]
+    },
+    "13": {
+      "text": "A kikötőben hajósok sürögnek-forognak. Egy fiatal matróz köteleket rakod, egy szakállas férfi hálókat javít. A víz csillog a reggeli fényben, a hajók készen állnak az indulásra. A távolban egy díszes viking hajó áll, amelyen zászlók lengenek.",
+      "choices": [
+        { "label": "Beszállsz a díszes hajóba", "next": "14" },
+        { "label": "Elindulsz inkább a kisebb hajóddal", "next": "7" },
+        { "label": "Megpróbálsz beszélgetni a matrózzal", "next": "33" }
+      ]
+    },
+    "14": {
+      "text": "A hajó deszkái recsegnek, ahogy fellépsz rá. A legénység énekel, dobok szólnak, a kapitány szigorú szemekkel méri végig az újonnan érkezőket. A tenger lassan sodor benneteket kifelé a fjordból. A parton gyerekek integetnek, asszonyok imát mormolnak.",
+      "choices": [
+        { "label": "Részt veszel a dalban és erősíted a morált", "next": "34" },
+        { "label": "A kapitánnyal beszélsz a tervekről", "next": "35" },
+        { "label": "Csendben maradsz és figyeled a hullámokat", "next": "36" }
+      ]
+    },
+    "15": {
+      "text": "Úgy döntesz, hogy még nem állsz készen a nagy útra. A faluban maradsz, és segítesz a mindennapi munkákban. A kovács hálás, hogy besegítesz neki, a gyerekek pedig meséket kérnek tőled a harcosokról. Ám a szíved mélyén érzed, hogy a sorsod nagyobb dolgokra hív.",
+      "choices": [
+        { "label": "Mégis útra kelsz egyedül", "next": "7" },
+        { "label": "Elfogadod, hogy a falusi életed itt folytatódik", "next": "37" }
+      ]
+    },
+    "16": {
+      "text": "Az őrség feláll a falukapunál. A fáklyák fénye lobog az éjszakában, a közelben farkasok üvöltése hallatszik. A fiatalok idegesen markolják fegyvereiket, miközben te próbálod bátorsággal tölteni őket. A ködben lassan árnyak tűnnek fel.",
+      "choices": [
+        { "label": "Kivárod, míg közelebb érnek", "next": "38" },
+        { "label": "Támadást vezetsz az árnyak ellen", "next": "39" },
+        { "label": "Visszavonulsz a faluba", "next": "40" }
+      ]
+    },
+    "17": {
+      "text": "A fiatalok szeme csillog, amikor fegyvert forgatni tanítod őket. Egyikük ügyesen kezeli a lándzsát, másik a pajzsot tartja szilárdan. Az öreg kovács mosolyogva nézi a próbálkozást: 'Ezekből még harcos lesz.' A falusiak kezdik hinni, hogy van remény.",
+      "choices": [
+        { "label": "Folytatod a kiképzést", "next": "41" },
+        { "label": "Elküldesz néhány fiatalt felderítésre", "next": "42" }
+      ]
+    },
+    "18": {
+      "text": "Az éj sötétjében, csak a holdfény vezet. A fák között neszezést hallasz, majd egy alak ugrik elő: egy kóbor vándor, aki élelemért könyörög. Ruhája szakadt, de a szemében bölcsesség csillog. 'Nagy veszély közeledik a falura' – suttogja.",
+      "choices": [
+        { "label": "Segítesz neki és ételt adsz", "next": "43" },
+        { "label": "Kihallgatod, hogy mit tud pontosan", "next": "44" },
+        { "label": "Elutasítod és visszaküldöd az erdőbe", "next": "45" }
+      ]
+    },
+    "19": {
+      "text": "Kelet felé hajózol, a köd egyre sűrűbb lesz, a víz mély és baljóslatú. Néhány óra után egy sziget körvonalai tűnnek fel. A parton furcsa kövek sorakoznak, mintha ősi jelek lennének rajtuk. A madarak rikoltozva köröznek a sziget felett.",
+      "choices": [
+        { "label": "Kikötsz a szigeten", "next": "46" },
+        { "label": "Továbbhajózol kelet felé", "next": "47" },
+        { "label": "Visszafordulsz a faluba", "next": "15" }
+      ]
+    },
+    "20": {
+      "text": "Nyugat felé indulsz, és néhány nap múlva elérsz egy nagyobb várost. A falak magasak, a kapuk zárva, de a parton kereskedők cserélnek árut. Egy arab kereskedő sátra különösen díszes, és különféle fegyvereket kínál. A környéken idegen katonák járőröznek.",
+      "choices": [
+        { "label": "Megpróbálsz bejutni a városba", "next": "48" },
+        { "label": "Alkudozol a kereskedővel fegyverekért", "next": "49" },
+        { "label": "Csendben továbbállsz", "next": "50" }
+      ]
+    },
+        "21": {
+      "text": "Elhatározod, hogy megkeresed a legendás kardot. A bárd útmutatása szerint a hegyekben, egy barlang mélyén kell lennie. Néhány harcos gúnyosan kinevet, mások elismerően bólintanak. Egy fiatal fiú azt ajánlja, hogy mutat neked egy ösvényt a hegyek felé.",
+      "choices": [
+        { "label": "Elfogadod a fiú segítségét", "next": "51" },
+        { "label": "Egyedül indulsz útnak", "next": "52" }
+      ]
+    },
+    "22": {
+      "text": "A nevetés és a sör egyre hangosabbá válik. Az este lassan éjszakába fordul, és a kocsmában fesztelen jókedv terjed. Bár a történet lehetőség lett volna egy nagy kalandra, most inkább a mának élsz. Ez az este örökre a falusi emlékek része marad.",
+      "choices": [
+        { "label": "Reggel új erővel mész a kikötőbe", "next": "13" },
+        { "label": "Tovább maradsz és élvezed az egyszerű életet", "next": "37" }
+      ]
+    },
+    "23": {
+      "text": "A bárd szeme titokzatosan villan, amikor közelebb hajolsz. 'A kard nemcsak fegyver, hanem hatalom is. Csak az méltó rá, aki képes legyőzni önmagát.' A szavai rejtélyesek, de benned mélyen felkeltik a vágyat a felfedezésre.",
+      "choices": [
+        { "label": "Azonnal elindulsz a hegyekbe", "next": "21" },
+        { "label": "Elhatározod, hogy később indulsz útra", "next": "15" }
+      ]
+    },
+    "24": {
+      "text": "A kereskedő mohón elveszi az érméidet, majd előhúz egy gyűrött térképet. A papír szélén vörös tintával jelölt útvonal vezet a város falán kívüli titkos alagúthoz. 'De vigyázz – ott őrök járnak, és nem mindenki tér vissza onnan.'",
+      "choices": [
+        { "label": "Megpróbálod az alagúton keresztül bejutni", "next": "48" },
+        { "label": "Elrejted a térképet és későbbre hagyod", "next": "50" }
+      ]
+    },
+    "25": {
+      "text": "Megpróbálod ellopni a térképet, de a kereskedő éles szemmel figyel. Felkiált, mire néhány harcos odarohan, hogy megragadjon. A kocsma hirtelen zajos lesz, és mindenki rád szegezi a tekintetét. Az életed veszélybe kerül.",
+      "choices": [
+        { "label": "Megküzdesz a harcosokkal", "next": "53" },
+        { "label": "Elmenekülsz a hátsó ajtón", "next": "54" }
+      ]
+    },
+    "26": {
+      "text": "Úgy döntesz, hogy nem foglalkozol a kereskedő titokzatos ajánlatával. Elhagyod a kocsmát, és a falu csendes utcáin sétálsz. A hold fénye ezüstösen világítja meg a tetőket, és a kikötő felől dobpergés hallatszik.",
+      "choices": [
+        { "label": "A kikötő felé indulsz", "next": "13" },
+        { "label": "A törzsfőnök házához mész", "next": "2" }
+      ]
+    },
+    "27": {
+      "text": "Öklöd hatalmas erővel csapódik a részeg harcos arcába. A férfi a földre zuhan, a tömeg felmorajlik, majd nevetés és éljenzés tör ki. Megnyerted a küzdelmet, és mostantól tisztelettel néznek rád a kocsmában.",
+      "choices": [
+        { "label": "Ünnepelsz velük", "next": "22" },
+        { "label": "Elhagyod a kocsmát és a kikötő felé indulsz", "next": "13" }
+      ]
+    },
+    "28": {
+      "text": "Gyors mozdulatokkal térsz ki a támadásai elől, majd ügyesen kibillented egyensúlyából. A harcos a földre zuhan, de nem sérül meg súlyosan. A tömeg tapsol és ujjong, csodálva az ügyességedet.",
+      "choices": [
+        { "label": "Segítesz felállni az ellenfelednek", "next": "55" },
+        { "label": "Elhagyod a kocsmát", "next": "13" }
+      ]
+    },
+    "29": {
+      "text": "Az utolsó pillanatban úgy döntesz, hogy nem harcolsz. A tömeg csalódottan morog, de nem támadnak rád. Az ellenfeled gúnyosan legyint, és visszaül inni. Bár a tiszteletet nem nyerted el, legalább elkerülted a sérülést.",
+      "choices": [
+        { "label": "Csendben hazamész", "next": "15" },
+        { "label": "Mégis inkább a kikötőbe indulsz", "next": "13" }
+      ]
+    },
+    "30": {
+      "text": "Az öregasszony szemei hirtelen kifényesednek, és mély, remegő hangon szólal meg: 'A kard és a vér útján fogsz járni. De az, aki melletted áll, nem mindig barát, és az, aki ellened jön, nem mindig ellenség.' Ezek a szavak összezavarnak, de erőt is adnak.",
+      "choices": [
+        { "label": "Megfogadod a szavait és útra kelsz", "next": "31" },
+        { "label": "Elhatározod, hogy inkább a faluban maradsz", "next": "15" }
+      ]
+    },
+        "31": {
+      "text": "Az öregasszony áldását adja rád, és egy kis amulettet akaszt a nyakadba. 'Ez majd megvéd a sötétben' – mondja, majd lassan eltűnik a tömegben. Az amulett különös meleget áraszt, amikor a kezedbe veszed.",
+      "choices": [
+        { "label": "A kikötő felé indulsz", "next": "13" },
+        { "label": "Elmész a törzsfőnökhöz", "next": "2" }
+      ]
+    },
+    "32": {
+      "text": "Az öregasszony mélyen a szemedbe néz. 'Az ár nem mindig arany vagy ezüst. Néha a szíved, a barátaid, vagy a becsületed.' A szavai nyomasztóak, és megérzed, hogy a sorsod komoly döntések elé állít majd.",
+      "choices": [
+        { "label": "Megköszönöd és távozol a kikötő felé", "next": "13" },
+        { "label": "Még több választ próbálsz kicsikarni belőle", "next": "56" }
+      ]
+    },
+    "33": {
+      "text": "A fiatal matróz lelkesen mesél arról, hogyan készülnek egy nagy útra nyugat felé. 'Azt mondják, gazdag városokat találhatunk, és dicsőséget.' Látszik rajta, hogy vágyik a kalandra, de kicsit fél is az ismeretlentől.",
+      "choices": [
+        { "label": "Csatlakozol hozzájuk", "next": "14" },
+        { "label": "Bátorítod, majd inkább más hajót keresel", "next": "7" }
+      ]
+    },
+    "34": {
+      "text": "A dalhoz csatlakozol, és a legénység hangja egyre erősebben száll a tengeren át. A közös éneklés erőt ad mindenkinek. A kapitány elismerően bólint, amikor látja, hogy összetartod a csapatot.",
+      "choices": [
+        { "label": "Megpróbálsz barátságot kötni a kapitánnyal", "next": "35" },
+        { "label": "Maradsz a legénységgel és segítesz a munkában", "next": "57" }
+      ]
+    },
+    "35": {
+      "text": "A kapitány egy ideig csendben figyel, majd megszólal: 'Te nem vagy közönséges harcos. Ha kitartasz mellettem, nagy zsákmány vár ránk.' Az ajánlat csábító, de érzed, hogy veszélyek is rejlenek benne.",
+      "choices": [
+        { "label": "Elfogadod a kapitány ajánlatát", "next": "58" },
+        { "label": "Elutasítod és a legénységgel maradsz", "next": "57" }
+      ]
+    },
+    "36": {
+      "text": "Csendben figyeled a hullámokat, és közben észreveszed, hogy néhány matróz bizalmatlanul méreget. Nem mindenki örül az újonnan érkezőknek. Az egyik halkan azt suttogja a másiknak: 'Remélem, nem lesz baj vele.'",
+      "choices": [
+        { "label": "Megpróbálsz beszélgetést kezdeményezni", "next": "59" },
+        { "label": "Figyelmen kívül hagyod őket", "next": "60" }
+      ]
+    },
+    "37": {
+      "text": "Úgy döntesz, hogy a falusi élet egyszerűsége elég számodra. Segítesz a földeken, vadászni jársz, és meséket mondasz a gyerekeknek a régi idők hőseiről. Bár nagy kalandot nem élsz át, békés és hosszú élet vár rád.",
+      "choices": []
+    },
+    "38": {
+      "text": "Az árnyak lassan közelednek, majd kiderül, hogy idegen harcosok azok, akik fosztogatni akarnak. A falu őrsége idegesen markolja a fegyvereket, minden szem rád szegeződik, hogy vezess.",
+      "choices": [
+        { "label": "Támadásra vezényled az embereket", "next": "61" },
+        { "label": "Megpróbálsz tárgyalni az idegenekkel", "next": "62" }
+      ]
+    },
+    "39": {
+      "text": "Dühödben előretörsz, és a fiatal harcosok követnek. Az árnyak valóban idegen portyázók, akik meglepődnek a gyors támadáson. Vérontás kezdődik a ködben, minden eldől egyetlen pillanat alatt.",
+      "choices": [
+        { "label": "Végigküzdöd magad közöttük", "next": "63" },
+        { "label": "Megpróbálsz visszavonulni a faluba", "next": "40" }
+      ]
+    },
+    "40": {
+      "text": "Gyors döntést hozol: visszavonulsz a faluba, hogy erősebb védelmet szervezz. A falusiak megdöbbennek, de hallgatnak rád. A kapukat bezárják, a fáklyák fénye erősebben lobog, miközben az ellenség lassan körbeveszi a települést.",
+      "choices": [
+        { "label": "Felkészülsz az ostromra", "next": "64" },
+        { "label": "Megpróbálsz titokban kitörni a faluból", "next": "65" }
+      ]
+    },
+        "41": {
+      "text": "A kiképzés egyre intenzívebbé válik, és a fiatalok szemében már nem a félelem, hanem a bátorság csillog. Egyikük, a lelkes Erik, odalép hozzád: 'Taníts meg minket igazi harcosokká válni, Bjorn!' Az egész falu büszkén figyeli a fejlődésüket.",
+      "choices": [
+        { "label": "Eriket választod hadnagyodnak", "next": "66" },
+        { "label": "Mindenkit egyformán kezelsz", "next": "67" }
+      ]
+    },
+    "42": {
+      "text": "Néhány fiatal elindul a sötét erdő felé, hogy felderítse az ellenség helyzetét. Órák múlva visszatérnek, sebesülten és fáradtan. 'Harcosokat láttunk a hegyeknél' – zihálják. A hír aggodalmat kelt a faluban.",
+      "choices": [
+        { "label": "Azonnal haditanácsot hívsz össze", "next": "68" },
+        { "label": "Felkészíted a falut az ostromra", "next": "64" }
+      ]
+    },
+    "43": {
+      "text": "Ételt adsz a vándornak, aki hálás könnyekkel köszöni meg. 'Meg fogom hálálni, Bjorn. Egyszer még szükséged lehet rám.' A férfi lassan eltűnik az erdőben, de érzed, hogy a sors újra összehozhat vele.",
+      "choices": [
+        { "label": "Visszatérsz a faluba", "next": "15" },
+        { "label": "Folytatod a felderítést", "next": "44" }
+      ]
+    },
+    "44": {
+      "text": "A vándor elmondja, hogy egy nagyobb portyázó csapat közeledik a fjord mentén. 'Nem maradt sok időtök. Ha most cselekedtek, talán megmenthetitek a falut.' A hangja őszintének tűnik, bár a szemeiben titkok csillognak.",
+      "choices": [
+        { "label": "Hiszel neki és azonnal a faluba sietsz", "next": "15" },
+        { "label": "Gyanakodsz, és kihallgatod tovább", "next": "69" }
+      ]
+    },
+    "45": {
+      "text": "Ridegen elutasítod a vándort, aki csalódottan néz rád, majd eltűnik az éjszakában. Ahogy visszafelé indulsz, a fák között mintha árnyak suhannának. Egy pillanatra megremeg benned a bizonyosság, hogy jó döntést hoztál-e.",
+      "choices": [
+        { "label": "Visszamész a faluba", "next": "15" },
+        { "label": "Mélyebbre mész az erdőbe", "next": "70" }
+      ]
+    },
+    "46": {
+      "text": "Kikötsz a szigeten, ahol a furcsa kövek körben állnak, mintha ősi oltár részei lennének. A levegő hideg és feszültséggel teli. A kövek közül egy szakadt ruhás remete lép elő, és azt mondja: 'Ez a hely az isteneké.'",
+      "choices": [
+        { "label": "Beszélgetsz a remetével", "next": "71" },
+        { "label": "Megvizsgálod a köveket", "next": "72" },
+        { "label": "Sietve visszatérsz a hajóra", "next": "47" }
+      ]
+    },
+    "47": {
+      "text": "Továbbhajózol a keleti tengeren, ahol a hullámok egyre nagyobbak. Vihar közeledik, a szél süvít, és a hajód recseg-ropog. A legénység rémülten néz rád, várva a döntésed.",
+      "choices": [
+        { "label": "Megpróbálod átvészelni a vihart", "next": "73" },
+        { "label": "Visszafordulsz", "next": "15" }
+      ]
+    },
+    "48": {
+      "text": "A város falai alatt közeledsz az alagúthoz. A levegő fülledt, a kőfalakon mohák nőnek. Az alagút sötét, és patkányok futkosnak benne. Hallod az őrök lépteit is, akik nem messze járőröznek.",
+      "choices": [
+        { "label": "Lopakodva bemész az alagútba", "next": "74" },
+        { "label": "Megpróbálod lefizetni az őröket", "next": "75" },
+        { "label": "Visszavonulsz a hajóhoz", "next": "50" }
+      ]
+    },
+    "49": {
+      "text": "Az arab kereskedő mosolyogva kínálja a fegyvereket. 'Ez itt damaszkuszi acél, a legjobb a világon.' Az ár magas, de a fegyverek valóban kiválóak. A katonák gyanakodva figyelik, mit teszel.",
+      "choices": [
+        { "label": "Megveszel egy fegyvert", "next": "76" },
+        { "label": "Alkudozni próbálsz", "next": "77" },
+        { "label": "Nem vásárolsz és odébbállsz", "next": "50" }
+      ]
+    },
+    "50": {
+      "text": "Úgy döntesz, hogy nem kockáztatsz. Visszatérsz a hajóhoz, amely lassan kifut a kikötőből. A matrózok csalódottan néznek rád, de te tudod, hogy néha a túlélés is győzelem. A nyílt tenger új kalandokat ígér.",
+      "choices": [
+        { "label": "Új útvonalat keresel", "next": "19" },
+        { "label": "Hazatérsz a faluba", "next": "15" }
+      ]
+    },
+        "51": {
+      "text": "A fiú lelkesedése segít eligazodni a hegyi ösvényeken. Napok múltán egy barlanghoz értek, melynek bejáratánál régi rúnák láthatók. A fiú félve visszamarad, de te elszántan lépsz be a sötétbe.",
+      "choices": [
+        { "label": "Belépsz a barlang mélyére", "next": "78" },
+        { "label": "Visszafordulsz, mielőtt túl késő lenne", "next": "15" }
+      ]
+    },
+    "52": {
+      "text": "Egyedül indulsz a hegyekbe. A hideg és a vadállatok miatt kimerülsz, de végül egy hatalmas barlanghoz érsz. A bejáratnál farkasok üvöltése hallatszik, de a rúnák fénylenek a sötétben.",
+      "choices": [
+        { "label": "Harcolsz a farkasokkal", "next": "79" },
+        { "label": "Megpróbálsz csendben belopódzni", "next": "78" }
+      ]
+    },
+    "53": {
+      "text": "A harcosok rád rontanak, de erejed és harci tapasztalatod segít. Bár súlyosan megsérülsz, végül győzöl. A kocsma közönsége egyszerre fél és tisztel téged. De tudod, hogy nem maradhatsz itt sokáig.",
+      "choices": [
+        { "label": "Elmenekülsz a kikötőbe", "next": "13" }
+      ]
+    },
+    "54": {
+      "text": "A hátsó ajtón rohansz ki, és a sikátor sötétje elnyel. Az utcákon átsuhanva végül a kikötőbe érsz. Bár a becsületed csorbult, még van esélyed újrakezdeni.",
+      "choices": [
+        { "label": "Felszállsz egy hajóra", "next": "14" }
+      ]
+    },
+    "55": {
+      "text": "Segítesz felállni az ellenfelednek, aki hálásan bólint. A kocsma közönsége tiszteletet mutat, és a bárd újra dalba kezd. Úgy érzed, barátokat szereztél.",
+      "choices": [
+        { "label": "Velük ünnepelsz", "next": "22" },
+        { "label": "Továbbmész a kikötőbe", "next": "13" }
+      ]
+    },
+    "56": {
+      "text": "Az öregasszony haragosan néz rád, mert nem hagyod békén. 'Túl sokat akarsz tudni, és az istenek nem nézik jó szemmel.' A hangja élesen csendül, majd elfordul tőled. Megérzed, hogy átkot vontál magadra.",
+      "choices": [
+        { "label": "Mégis útra kelsz", "next": "31" },
+        { "label": "Visszavonulsz a faluba", "next": "15" }
+      ]
+    },
+    "57": {
+      "text": "A legénységgel együtt dolgozol, köteleket húzol és evezel. Bár fárasztó a munka, a matrózok lassan elfogadnak. Este a tűz mellett mesélnek történeteket a régi csatákról.",
+      "choices": [
+        { "label": "Csatlakozol a meséléshez", "next": "80" },
+        { "label": "Csendben hallgatod őket", "next": "60" }
+      ]
+    },
+    "58": {
+      "text": "Elfogadod a kapitány ajánlatát. Ő különleges feladatokat ad neked, és lassan a jobbkeze leszel. A legénység félig irigykedve, félig tisztelettel néz rád. A következő portya sikeres, gazdagságot hoz.",
+      "choices": []
+    },
+    "59": {
+      "text": "Megpróbálsz beszélgetni a matrózokkal. Néhányuk fagyosan reagál, de egyikük, egy mogorva szakállas, végül elfogadja a jelenlétedet. 'Ha bizonyítasz a csatában, elfogadunk' – morogja.",
+      "choices": [
+        { "label": "Megígéred, hogy bizonyítani fogsz", "next": "80" },
+        { "label": "Elhatározod, hogy inkább más utat választasz", "next": "15" }
+      ]
+    },
+    "60": {
+      "text": "Figyelmen kívül hagyod a gyanakvókat, és inkább a tenger szépségére összpontosítasz. A naplemente vörösre festi a horizontot, a szél sós illatot hoz. Bár idegennek érzed magad, a szabadság íze erőt ad.",
+      "choices": []
+    },
+    "61": {
+      "text": "A támadás sikeres: az idegen portyázók meglepődnek és visszavonulnak. A falusiak ünnepelnek, te pedig hősként állsz a diadal középpontjában. A falu hosszú ideig emlegetni fogja a neved.",
+      "choices": []
+    },
+    "62": {
+      "text": "Megpróbálsz tárgyalni az idegenekkel, de gúnyosan kinevetnek. 'A vikingek csak harcban értenek!' – mondják, majd rád rontanak. A túlerő legyőz, és elbuksz a kapunál.",
+      "choices": []
+    },
+    "63": {
+      "text": "Ádáz harcban legyőzöd az idegeneket, de súlyos sebeket szerzel. Bár a falu megmenekül, te a földre rogyva érzed, hogy ez volt az utolsó csatád. A neved legendaként marad fenn.",
+      "choices": []
+    },
+    "64": {
+      "text": "A falusiak felkészülnek az ostromra. A falak mögött összetartanak, és az ellenség végül feladja. Hosszú napok múlva a falu még mindig áll, és te vezetőként tiszteletet nyersz.",
+      "choices": []
+    },
+    "65": {
+      "text": "Éjszaka titokban kitörsz a faluból. Bár elveszíted az otthonod, életben maradsz. Egy új világ vár rád, ahol szabadon dönthetsz a sorsodról.",
+      "choices": []
+    },
+    "66": {
+      "text": "Eriket választod hadnagyodnak. A fiú bátor és hűséges, a többiek is felnéznek rá. Együtt erős csapatot kovácsoltok, és a falu jövője biztosabbá válik.",
+      "choices": []
+    },
+    "67": {
+      "text": "Mindenkit egyformán kezelsz, és ezzel tiszteletet szerzel. Bár nincs kiemelt vezetőd, az egység erősebb, mint valaha. A falusiak összetartanak és sikerrel védik meg magukat.",
+      "choices": []
+    },
+    "68": {
+      "text": "Haditanácsot hívsz össze, ahol az öregek és a harcosok együtt döntenek. Bölcs stratégiával sikerül elkerülni a legrosszabbat. Bár sok munkát igényel, a falu túlél.",
+      "choices": []
+    },
+    "69": {
+      "text": "Tovább faggatod a vándort, de dühösen fakad ki: 'Nem hiszel nekem? Akkor vidd el magaddal a titkaidat!' Eltűnik a sötétben, és soha többé nem látod. Később kiderül, hogy igaza volt, de már túl késő.",
+      "choices": []
+    },
+    "70": {
+      "text": "Az erdő mélyén eltévedsz, a sötét mindent elnyel. Hiába próbálsz visszatalálni, az éhség és a hideg végez veled. Neved lassan feledésbe merül.",
+      "choices": []
+    },
+    "71": {
+      "text": "A remete mély hangon szól: 'Az istenek nem kedvelik a tolakodókat.' Mégis elmondja, hogy a kövek között rejtett erő szunnyad. Ha bölcsen használod, gazdagság vár rád.",
+      "choices": []
+    },
+    "72": {
+      "text": "A kövekhez közel érve érzed, hogy valami ősi erő árad belőlük. Egy pillanatra látomásod lesz: csaták, tengerjárás és dicsőség. Amikor magadhoz térsz, a remete eltűnt.",
+      "choices": []
+    },
+    "73": {
+      "text": "Megpróbálod átvészelni a vihart. A hullámok összecsapnak a hajó felett, de kitartásod gyümölcsöt hoz. A vihar elvonul, és a legénység hősként tekint rád.",
+      "choices": []
+    },
+    "74": {
+      "text": "Lopakodva bemész az alagútba, és sikerrel bejutsz a városba. A piac fényes és gazdag, de minden lépésed veszélyes. Mégis, új világ tárul fel előtted.",
+      "choices": []
+    },
+    "75": {
+      "text": "Megpróbálod lefizetni az őröket, de elfogadják a pénzed és mégis elárulnak. Elfognak, és a város börtönébe vetnek. Életed itt ér véget.",
+      "choices": []
+    },
+    "76": {
+      "text": "Megveszel egy kiváló fegyvert. Bár szegényebb lettél, erősebbnek érzed magad. Ez a fegyver még sok csatában megmenti az életed.",
+      "choices": []
+    },
+    "77": {
+      "text": "Alkudozol a kereskedővel, aki nevetve enged az árból. Barátság szövődik köztetek, és később még segít neked a városban. Egy új szövetségesre leltél.",
+      "choices": []
+    },
+    "78": {
+      "text": "Belépsz a barlang mélyére. A sötétben egy fénylő kard vár rád, amelyet ősi csontvázak őriznek. Amikor a kezedbe veszed, hatalmas erő árad beléd. Te leszel a legendás harcos.",
+      "choices": []
+    },
+    "79": {
+      "text": "A farkasok rád rontanak, és bár néhányat legyőzöl, a túlerő ledönt a lábad alól. A barlang titka rejtve marad, és te elbuksz a hegyek árnyékában.",
+      "choices": []
+    },
+    "80": {
+      "text": "A tűz mellett mesélsz, és a matrózok lassan megnyílnak. Barátság szövődik köztetek, és közösen váltok legendává a tengeren. Életed végre célt nyer.",
+      "choices": []
+    }
+  }
+}
+
+

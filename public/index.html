@@ -1,103 +1,26 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <title>Interaktív történet</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        #story {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            max-width: 600px;
-            margin: auto;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        h1 {
-            text-align: center;
-        }
-        .choices {
-            margin-top: 20px;
-        }
-        .choices button {
-            display: block;
-            width: 100%;
-            margin: 5px 0;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            background: #007BFF;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        .choices button:hover {
-            background: #0056b3;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Interaktív történet</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="story">
-        <h1>Betöltés...</h1>
-        <p>Kérlek várj, a történet betöltése folyamatban van.</p>
-    </div>
+  <!-- Fő történet doboz -->
+  <div id="story">
+    <h1>Betöltés...</h1>
+    <p>Kérlek várj, a történet betöltése folyamatban van.</p>
+  </div>
 
-    <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        let storyName = urlParams.get("story");
+  <!-- Hangvezérlés ikon -->
+  <div id="audioControl" class="audio-control">
+    🔊
+  </div>
 
-        if (!storyName) {
-            storyName = "erdei_kaland"; // alapértelmezett történet
-        }
+  <!-- Háttérzene -->
+  <audio id="bgMusic" loop></audio>
 
-        fetch(`/story/${storyName}`)
-            .then(res => res.json())
-            .then(data => startStory(data))
-            .catch(() => {
-                document.getElementById("story").innerHTML =
-                    "<h2>Hiba</h2><p>Nem található a történet!</p>";
-            });
-
-        function startStory(storyData) {
-            let currentChapter = storyData.start;
-
-            function renderChapter() {
-                const chapter = storyData.chapters[currentChapter];
-                if (!chapter) {
-                    document.getElementById("story").innerHTML =
-                        "<h2>Vége</h2><p>A történet befejeződött.</p>";
-                    return;
-                }
-
-                let html = `<h1>${storyData.title}</h1>`;
-                html += `<p>${chapter.text}</p>`;
-
-                if (chapter.choices && chapter.choices.length > 0) {
-                    html += `<div class="choices">`;
-                    chapter.choices.forEach(choice => {
-                        html += `<button onclick="choose('${choice.next}')">${choice.label}</button>`;
-                    });
-                    html += `</div>`;
-                } else {
-                    html += `<p><em>Nincs több választás. A történet véget ért.</em></p>`;
-                }
-
-                document.getElementById("story").innerHTML = html;
-            }
-
-            // választás kezelése
-            window.choose = function(nextChapter) {
-                currentChapter = nextChapter;
-                renderChapter();
-            };
-
-            renderChapter();
-        }
-    </script>
+  <!-- Játék logika -->
+  <script src="js/game.js"></script>
 </body>
 </html>

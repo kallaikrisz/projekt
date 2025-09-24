@@ -1,0 +1,631 @@
+{
+  "title": "A jégkorszak árnyai",
+  "start": "1",
+  "chapters": {
+    "1": {
+      "text": "A fagyott tundra végtelennek tűnik. A szél üvöltve söpör végig a hóval borított síkságon, a távolban mamutok és szőrös orrszarvúak vonulnak lassan. A közeli barlang szájában egy kisebb törzs tagjai gyülekeznek: a bölcs, fehér szakállú vadász, Ugar; a fiatal, kíváncsi lány, Lira; és az ideges természetű tűzgyújtó, Karrok. Te vagy a törzs egyik fiatal harcosa, és ma este döntened kell, hogyan indulsz neki az előttetek álló kemény télnek.",
+      "choices": [
+        { "label": "Elindulsz Ugar vadásszal mamutra vadászni.", "next": "2" },
+        { "label": "Beszélgetsz Karrokkal a tűz körül.", "next": "3" },
+        { "label": "Elindulsz egyedül a hómezőre felfedezni.", "next": "4" }
+      ]
+    },
+    "2": {
+      "text": "Ugar komoran int, és együtt indultok el a hóban. A hideg szél az arcotokat csípi, a lábatok alatt ropog a jég. A vadász éles szeme és tapasztalata biztonságot ad, de tudod, hogy a mamut veszélyes ellenfél. A távolban egy lassan mozgó csorda körvonalai rajzolódnak ki.",
+      "choices": [
+        { "label": "Közel merészkedsz a csordához.", "next": "5" },
+        { "label": "Megvárod, amíg Ugar dönt.", "next": "6" },
+        { "label": "Visszafordulsz a törzshöz.", "next": "7" }
+      ]
+    },
+    "3": {
+      "text": "Karrok idegesen dörzsöli a kezét a tűz mellett. A lángok gyengén pislákolnak, és a férfi szeme sötét árnyékokat vet az arcára. 'A tél kemény lesz' – mondja. 'Talán nem mindannyian éljük túl.' A körülötte lévő gyerekek rémülten hallgatják.",
+      "choices": [
+        { "label": "Megnyugtatod a gyerekeket.", "next": "8" },
+        { "label": "Ráparancsolsz Karrokra, hogy hallgasson.", "next": "9" },
+        { "label": "Elindulsz, hogy Lirával beszélj.", "next": "10" }
+      ]
+    },
+    "4": {
+      "text": "Egyedül indulsz el a hómezőn. A szél erősen fúj, és minden lépésnél úgy érzed, hogy az erőd fogy. A távolban egy barlang sötét nyílását veszed észre, de hallod, hogy belül valami mozog. Ugyanakkor a másik irányból farkasok üvöltését hallod.",
+      "choices": [
+        { "label": "Bemész a barlangba.", "next": "11" },
+        { "label": "A farkasok felé indulsz.", "next": "12" },
+        { "label": "Visszatérsz a törzshöz.", "next": "7" }
+      ]
+    },
+    "5": {
+      "text": "A mamutcsorda közelébe érsz. A hatalmas állatok bundája deres, ormányuk halkan dübörög, miközben a havat túrják. Egy fiatalabb mamut elkülönül a többiektől. Ugar rád néz, és a szemeiben kérdést látsz: most támadjatok, vagy várjatok?",
+      "choices": [
+        { "label": "Rátámadsz a fiatal mamutra.", "next": "13" },
+        { "label": "Megvárod, amíg a csorda továbbáll.", "next": "14" },
+        { "label": "Visszavonulsz Ugarral.", "next": "7" }
+      ]
+    },
+    "6": {
+      "text": "Ugar a hóban guggol, és hosszasan figyeli a csordát. 'Nem most van itt az ideje' – morogja. Egy másik vad nyomait veszi észre: egy gyapjas orrszarvú közel lehet. Ez egyszerre jelenthet zsákmányt és veszélyt.",
+      "choices": [
+        { "label": "Követed az orrszarvú nyomait.", "next": "15" },
+        { "label": "Visszamentek a törzshöz.", "next": "7" },
+        { "label": "Megpróbáljátok megkerülni a mamutokat.", "next": "16" }
+      ]
+    },
+    "7": {
+      "text": "Visszatérsz a törzshöz. A gyerekek a tűz körül játszanak, Lira éppen húst szárít a köveken, és Karrok továbbra is dörmög a tél veszélyeiről. A törzs biztonságosnak tűnik, de tudod, hogy előbb-utóbb döntened kell: élelem után kell nézni.",
+      "choices": [
+        { "label": "Segítesz Lirának a hús szárításában.", "next": "17" },
+        { "label": "Újra beszélgetsz Karrokkal.", "next": "3" },
+        { "label": "Készítesz magadnak fegyvert és elindulsz.", "next": "18" }
+      ]
+    },
+    "8": {
+      "text": "Megnyugtatod a gyerekeket, akik félve bújnak hozzád. Mesélsz nekik a régi idők hőseiről, akik túléltek még keményebb teleket is. A gyerekek szeme lassan felcsillan, és Karrok is elhallgat. Lira hálásan rád mosolyog a tűz túloldaláról.",
+      "choices": [
+        { "label": "Beszélgetsz tovább Lirával.", "next": "10" },
+        { "label": "Elindulsz vadászni.", "next": "18" },
+        { "label": "Körbenézel a táborban.", "next": "19" }
+      ]
+    },
+    "9": {
+      "text": "Ráförmedsz Karrokra, hogy ne rémítse a gyerekeket. Az ideges férfi szeme villan, de végül lesüti a tekintetét. Néhányan a törzsből helyeslően bólogatnak, mások viszont morgolódnak, mert Karrok tűzgyújtó képessége nélkülözhetetlen. Egyre élesebbé válik a feszültség.",
+      "choices": [
+        { "label": "Megpróbálod kiengesztelni Karrokot.", "next": "20" },
+        { "label": "Hagyd, hadd duzzogjon.", "next": "21" },
+        { "label": "Kihívod, hogy bizonyítsa a bátorságát.", "next": "22" }
+      ]
+    },
+    "10": {
+      "text": "Lira kedvesen mosolyog rád. 'Nem félsz?' – kérdezi. A lány mindig is kíváncsi és merész volt. Mesél arról, hogy szeretne egyszer túlélni egy saját vadászatot, nem csak a törzs védelme mögött élni.",
+      "choices": [
+        { "label": "Megígéred, hogy elviszed vadászni.", "next": "23" },
+        { "label": "Megtiltod neki, hogy veszélybe sodorja magát.", "next": "24" },
+        { "label": "Nevetsz, és eltereled a témát.", "next": "25" }
+      ]
+    },
+        "11": {
+      "text": "Belépsz a sötét barlangba, ahol a hideg még jobban beléd mar. A falakon jégcsapok lógnak, és mély morajlást hallasz odabentről. Ahogy a szemed lassan hozzászokik a sötéthez, meglátsz egy barlangi medvét, amely nyugtalanul mocorog. Ha ügyes vagy, elkerülheted a figyelmét, de ha nem, végzetes lehet.",
+      "choices": [
+        { "label": "Megpróbálsz csendben visszalépni.", "next": "26" },
+        { "label": "Kihívod a medvét harcra.", "next": "27" },
+        { "label": "Eldobsz egy fáklyát, hogy elriasszad.", "next": "28" }
+      ]
+    },
+    "12": {
+      "text": "A farkasok üvöltése egyre közelebbről hallatszik. Hamarosan négy sötét árny bontakozik ki a hóviharban. A falkavezér szeme vörösen villog a félhomályban. A többiek körbe akarnak zárni, és minden mozdulatod döntő lehet.",
+      "choices": [
+        { "label": "Felmászól egy közeli fára.", "next": "29" },
+        { "label": "Megpróbálsz elijeszteni őket kiabálással.", "next": "30" },
+        { "label": "Visszafutsz a törzshöz.", "next": "7" }
+      ]
+    },
+    "13": {
+      "text": "Ugarral együtt rátámadtok a fiatal mamutra. A dárdátok a vastag bundába fúródik, az állat ordítva csap az ormányával. A csorda többi tagja is felfigyel, és dühösen felétek ront. A föld remeg a lábatok alatt.",
+      "choices": [
+        { "label": "Küzdesz tovább a fiatal mamuttal.", "next": "31" },
+        { "label": "Megpróbálsz menekülni a csorda elől.", "next": "32" },
+        { "label": "Elbújsz a hóban és mozdulatlan maradsz.", "next": "33" }
+      ]
+    },
+    "14": {
+      "text": "Türelmesen vártok, amíg a csorda lassan továbbvonul. A föld nyugodtabb lesz, és végre fellélegezhettek. A hóban azonban egy elhagyott mamutcsontvázat találtok, mellette egy furcsa kőből készült szerszámmal. Talán egy másik törzs járt erre.",
+      "choices": [
+        { "label": "Elveszed a szerszámot.", "next": "34" },
+        { "label": "Otthagyod, nehogy bajt hozzon rád.", "next": "35" },
+        { "label": "Nyomokat keresel a hóban.", "next": "36" }
+      ]
+    },
+    "15": {
+      "text": "Követitek az orrszarvú nyomait, amelyek egyre mélyebb hóba vezetnek. A nyomok mellett emberi lábnyomokat is láttok. Úgy tűnik, más vadászok is üldözőbe vették a hatalmas állatot. Talán ellenséges törzs tagjai.",
+      "choices": [
+        { "label": "Felgyorsítod a lépteidet, hogy utolérd őket.", "next": "37" },
+        { "label": "Óvatosan a távolból figyeled őket.", "next": "38" },
+        { "label": "Visszatérsz Ugarhoz és megbeszéled vele.", "next": "39" }
+      ]
+    },
+    "16": {
+      "text": "Megpróbáljátok megkerülni a mamutokat. A hó azonban egyre mélyebb, és a szél is erősebben fúj. Egy jégszakadékhoz értek, amely mélyen tátong előttetek. Az átkelés kockázatos, de a túloldalon újabb vadak lehetnek.",
+      "choices": [
+        { "label": "Átkelsz a jégszakadékon.", "next": "40" },
+        { "label": "Keresel másik utat.", "next": "41" },
+        { "label": "Visszafordulsz a törzshöz.", "next": "7" }
+      ]
+    },
+    "17": {
+      "text": "Segítesz Lirának a hús szárításában. A lány hálásan mosolyog, miközben ügyesen forgatja a vékony csíkokat a köveken. 'Erős szél kell a jó száradáshoz' – magyarázza. A munkátok közben jókedvű beszélgetés indul, és Lira elárulja, hogy titokban szeretne saját vadászkést készíteni.",
+      "choices": [
+        { "label": "Felajánlod, hogy segítesz neki.", "next": "42" },
+        { "label": "Megtiltod neki, mondván, veszélyes.", "next": "43" },
+        { "label": "Nevetsz, és továbblépsz más feladatra.", "next": "19" }
+      ]
+    },
+    "18": {
+      "text": "Elkészíted a fegyvered: egy erős dárdát kovakőből pattintott heggyel. A munkád után elindulsz a hómezőn, hogy egyedül nézz szembe a tél kihívásaival. A távolban egy folyó jeges partját látod, másik irányban sötét erdő magasodik.",
+      "choices": [
+        { "label": "A folyó felé indulsz.", "next": "44" },
+        { "label": "Az erdő felé veszed az irányt.", "next": "45" },
+        { "label": "Visszafordulsz a táborhoz.", "next": "7" }
+      ]
+    },
+    "19": {
+      "text": "Körbenézel a táborban. Az idősek egy csoportja csendesen beszélget a barlang falánál, a gyerekek játékosan hógolyóznak. Az egyik öregasszony, Rona, integet neked, hogy menj oda hozzá. Úgy tűnik, mesélni szeretne valamit.",
+      "choices": [
+        { "label": "Odamész Ronához.", "next": "46" },
+        { "label": "Csatlakozol a gyerekek játékához.", "next": "47" },
+        { "label": "Elindulsz a táboron kívülre.", "next": "18" }
+      ]
+    },
+    "20": {
+      "text": "Megpróbálod kiengesztelni Karrokot, aki lassan felenged. 'Talán túl sötéten látom a dolgokat' – mondja. A feszültség enyhül, és a törzs tagjai hálásak a békéért. Karrok megígéri, hogy segít neked a következő vadászaton.",
+      "choices": [
+        { "label": "Elfogadod a segítségét.", "next": "48" },
+        { "label": "Még mindig nem bízol benne.", "next": "49" },
+        { "label": "Másra bízod a feladatot.", "next": "50" }
+      ]
+    },
+        "21": {
+      "text": "Hagyni akarod, hogy Karrok duzzogjon. A férfi a tűz mellett ülve morog magában, és kerül mindenkit. Néhányan a törzsből rosszallóan néznek rád, mások viszont megkönnyebbülnek, hogy nincs újabb vita. A feszültség a levegőben marad, és tudod, hogy előbb-utóbb robbanni fog.",
+      "choices": [
+        { "label": "Megpróbálod helyrehozni a kapcsolatot vele.", "next": "20" },
+        { "label": "Figyelmen kívül hagyod és Lirához fordulsz.", "next": "10" },
+        { "label": "Más feladatot keresel a táborban.", "next": "19" }
+      ]
+    },
+    "22": {
+      "text": "Kihívod Karrokot, hogy bizonyítsa a bátorságát. A férfi szeme fellángol, és kihívóan rád néz. A törzs tagjai izgatottan figyelnek. Karrok vállalja, hogy egyedül vadászni megy a közeli erdőbe, de rád bízza a döntést, hogy elkíséred-e.",
+      "choices": [
+        { "label": "Elkíséred őt az erdőbe.", "next": "51" },
+        { "label": "Hagyod, hogy egyedül menjen.", "next": "52" },
+        { "label": "Megpróbálod lebeszélni róla.", "next": "53" }
+      ]
+    },
+    "23": {
+      "text": "Megígéred Lirának, hogy egyszer elviszed vadászni. A lány szeme csillog a lelkesedéstől. 'Ez lesz életem legnagyobb kalandja!' – mondja boldogan. Ugyanakkor érzed, hogy ezzel veszélybe sodorhatod őt, és a törzs sem biztos, hogy helyesli majd a döntést.",
+      "choices": [
+        { "label": "Másnap elindultok vadászni.", "next": "54" },
+        { "label": "Kivárod a megfelelő pillanatot.", "next": "55" },
+        { "label": "Megosztod a törzzsel a tervet.", "next": "56" }
+      ]
+    },
+    "24": {
+      "text": "Megtiltod Lirának, hogy veszélybe sodorja magát. A lány arca elkomorul, és elfordul tőled. A tűz mellett ülve hallgat, de a szemeiben csalódottság csillog. Másnap talán titokban mégis megpróbál majd útnak indulni.",
+      "choices": [
+        { "label": "Bocsánatot kérsz tőle.", "next": "57" },
+        { "label": "Figyeled őt, nehogy megszökjön.", "next": "58" },
+        { "label": "Ráhagyod a dolgot.", "next": "59" }
+      ]
+    },
+    "25": {
+      "text": "Nevetsz, és eltereled a témát. Lira kicsit csalódottan hallgat el, majd inkább a gyerekekkel kezd foglalkozni. Úgy tűnik, most nem lesz több beszélgetésetek. A törzs tagjai lassan nyugovóra térnek, a tűz ropogása tölti be a barlangot.",
+      "choices": [
+        { "label": "Elindulsz őrségbe.", "next": "60" },
+        { "label": "Elalszol a tűz mellett.", "next": "61" },
+        { "label": "Körülnézel a barlang bejáratánál.", "next": "62" }
+      ]
+    },
+    "26": {
+      "text": "Lassan hátrálsz, próbálva elkerülni a medve figyelmét. Egy jégdarab azonban lepottyan a barlang faláról, és a medve felmordul. Szeme rád szegeződik, de még van időd reagálni.",
+      "choices": [
+        { "label": "Futsz, amilyen gyorsan csak tudsz.", "next": "63" },
+        { "label": "Megállsz mozdulatlanul, hátha megnyugszik.", "next": "64" },
+        { "label": "Fáklyát gyújtasz, hogy eltereld.", "next": "28" }
+      ]
+    },
+    "27": {
+      "text": "Felemelt dárdával rárontasz a barlangi medvére. Az állat dübörögve emelkedik két lábra, majd ordítva lecsap rád. A harc véres és kegyetlen. Bár sikerül megsebezned, a medve hatalmas mancsával súlyosan megüt.",
+      "choices": [
+        { "label": "Küzdesz tovább, az életed árán is.", "next": "65" },
+        { "label": "Menekülni próbálsz.", "next": "63" },
+        { "label": "Segítségért kiáltasz.", "next": "66" }
+      ]
+    },
+    "28": {
+      "text": "Eldobsz egy égő fáklyát, ami szikrázva csattan a barlang kövéhez. A medve hátrálva morog, és végül eltűnik a barlang mélyén. Megkönnyebbülsz, de tudod, hogy nem maradhatsz sokáig itt. A barlang tele lehet veszélyekkel.",
+      "choices": [
+        { "label": "Felfedezed a barlang belsejét.", "next": "67" },
+        { "label": "Sietve távozol a barlangból.", "next": "63" },
+        { "label": "Megpróbálsz zsákmányt keresni.", "next": "68" }
+      ]
+    },
+    "29": {
+      "text": "Felkapaszkodsz egy közeli fára, miközben a farkasok köröznek alatta. A fák törzse recseg a súlyod alatt, és az állatok dühösen ugrálnak feléd. Nem tudod, meddig bírod itt fent, és vajon lesz-e esélyed megszökni.",
+      "choices": [
+        { "label": "Megvárod, míg elmennek.", "next": "69" },
+        { "label": "Rádobsz egy ágat az egyik farkasra.", "next": "70" },
+        { "label": "Átmászol egy másik fára, hogy messzebb kerülj.", "next": "71" }
+      ]
+    },
+    "30": {
+      "text": "Hangosan kiabálsz és hadonászol. A farkasok egy pillanatra megtorpannak, de aztán még vadabbul rohamoznak. Az egyik rád ugrik, és a földre dönt. A harc elkerülhetetlen.",
+      "choices": [
+        { "label": "Dárdával védekezel.", "next": "72" },
+        { "label": "A torkát próbálod elkapni.", "next": "73" },
+        { "label": "Segítségért kiáltasz.", "next": "66" }
+      ]
+    },
+        "31": {
+      "text": "Tovább küzdesz a fiatal mamuttal. Az állat ordít, vér színezi be a havat, miközben Ugar újra és újra lesújt. Végül sikerül földre kényszeríteni, de a csorda közeledik, és nem marad sok időtök. Ha itt maradtok, mindkettőtök élete veszélyben lehet.",
+      "choices": [
+        { "label": "Megpróbálod gyorsan levágni a húst és menekülni.", "next": "74" },
+        { "label": "Otthagyod a zsákmányt és futsz.", "next": "32" },
+        { "label": "Elbújsz a közeli sziklák között.", "next": "33" }
+      ]
+    },
+    "32": {
+      "text": "Menekülni próbálsz, miközben a mamutcsorda dühösen vágtat. A föld remeg, a hó felcsap körülötted. Egy hatalmas ormány suhintása épphogy elkerül, de tudod, hogy bármelyik pillanatban utolérhetnek.",
+      "choices": [
+        { "label": "Futsz, amíg erőd bírja.", "next": "75" },
+        { "label": "Egy sziklahasadékba menekülsz.", "next": "33" },
+        { "label": "Ugar segítségét kéred.", "next": "76" }
+      ]
+    },
+    "33": {
+      "text": "A hóba veted magad, mozdulatlanul fekszel, remélve, hogy a mamutok nem vesznek észre. A csorda dübörögve halad el melletted, a föld remegése még sokáig a testedben marad. Amikor végül csend lesz, lassan felkelsz. Megmenekültél, de zsákmány nélkül.",
+      "choices": [
+        { "label": "Visszatérsz a törzshöz.", "next": "7" },
+        { "label": "Keresel új vadat.", "next": "18" },
+        { "label": "Megnézed a környéket más nyomok után.", "next": "36" }
+      ]
+    },
+    "34": {
+      "text": "Felveszed a szerszámot. A kő sima és különös minták borítják, nem a ti törzsetek stílusa. Amint a kezedbe veszed, furcsa melegséget érzel, mintha az eszköz különleges erővel bírna. Ugar gyanakodva néz rád.",
+      "choices": [
+        { "label": "Megtartod a szerszámot.", "next": "77" },
+        { "label": "Elásod, nehogy más megtalálja.", "next": "78" },
+        { "label": "Odaadod Ugar kezébe.", "next": "79" }
+      ]
+    },
+    "35": {
+      "text": "Otthagyod a szerszámot. Nem akarod a törzsedre hozni a bajt, ha másoké volt. Ugar bólint, mintha helyeselné a döntésed. A szél süvítve fúj tovább, és új nyomokat láttok a hóban.",
+      "choices": [
+        { "label": "Követed a nyomokat.", "next": "36" },
+        { "label": "Más vadat keresel.", "next": "18" },
+        { "label": "Visszatérsz a törzshöz.", "next": "7" }
+      ]
+    },
+    "36": {
+      "text": "A hóban nyomokat követsz: emberek és állatok vegyes lábnyomait. Úgy tűnik, egy másik törzs is a közelben vadászik. Ha közelebb mész, talán megtudhatod, kik ők, de nagy a kockázat.",
+      "choices": [
+        { "label": "Óvatosan követed őket.", "next": "80" },
+        { "label": "Elbújsz, hogy figyeld őket.", "next": "38" },
+        { "label": "Visszatérsz a törzshöz.", "next": "7" }
+      ]
+    },
+    "37": {
+      "text": "Felgyorsítod a lépteidet, hogy utolérd az idegen vadászokat. A hóban három alakot pillantasz meg: állatbőrbe öltözött harcosokat, akik egy orrszarvút űznek. Az egyik észrevesz téged, és felemeli a fegyverét.",
+      "choices": [
+        { "label": "Barátságosan közelítesz feléjük.", "next": "81" },
+        { "label": "Elbújsz egy hókupac mögé.", "next": "82" },
+        { "label": "Megfutamodsz.", "next": "75" }
+      ]
+    },
+    "38": {
+      "text": "Óvatosan figyeled az idegeneket a távolból. A vadászok tapasztaltak, és úgy tűnik, sikeresen ejtik el az orrszarvút. Egyikük a távolba néz, mintha érezné, hogy figyelik. Jobb lesz, ha hamarosan döntesz.",
+      "choices": [
+        { "label": "Tovább figyeled őket rejtve.", "next": "83" },
+        { "label": "Visszavonulsz csendben.", "next": "39" },
+        { "label": "Előlépsz és megszólítod őket.", "next": "81" }
+      ]
+    },
+    "39": {
+      "text": "Visszatérsz Ugarhoz, és megbeszélitek a helyzetet. Az öreg vadász komolyan néz rád. 'Ezek veszélyes idők' – mondja. 'Ha más törzsek járnak erre, lehet, hogy szövetséget kell kötnünk... vagy harcolnunk kell.'",
+      "choices": [
+        { "label": "Készüljetek szövetségre.", "next": "84" },
+        { "label": "Készüljetek harcra.", "next": "85" },
+        { "label": "Várjátok ki, mi történik.", "next": "86" }
+      ]
+    },
+    "40": {
+      "text": "Megpróbálsz átkelni a jégszakadékon. A jég recseg a lábad alatt, a mély szakadékból fagyos szél fúj fel. Egy rossz lépés, és örökre eltűnhetsz a mélyben. A túloldalon viszont árnyak mozognak: lehetnek vadak vagy emberek.",
+      "choices": [
+        { "label": "Továbbmész a túloldalra.", "next": "87" },
+        { "label": "Visszafordulsz biztonságba.", "next": "41" },
+        { "label": "Megvárod, míg Ugar dönt.", "next": "6" }
+      ]
+    },
+        "41": {
+      "text": "Másik utat keresel, hogy elkerüld a jégszakadékot. A hóvihar erősödik, de végül találsz egy biztonságosabb átjárót. Bár lassabban haladsz, a veszély kisebb, és hamarosan egy erdős területre érsz, ahol állatok nyomait fedezed fel.",
+      "choices": [
+        { "label": "Követed a vad nyomát.", "next": "44" },
+        { "label": "Táborhelyet keresel az erdőben.", "next": "45" },
+        { "label": "Visszafordulsz a törzshöz.", "next": "7" }
+      ]
+    },
+    "42": {
+      "text": "Felajánlod Lirának, hogy segítesz elkészíteni a vadászkést. Együtt pattintjátok a kovakövet, és a lány szemében izgalom csillog. A törzs néhány tagja rosszallóan figyel, de mások elismerik a bátorságát. A barátságotok mélyül.",
+      "choices": [
+        { "label": "Elindultok közösen vadászni.", "next": "54" },
+        { "label": "Elrejted a kést, nehogy megtalálják.", "next": "55" },
+        { "label": "Megmutatjátok a törzsnek.", "next": "56" }
+      ]
+    },
+    "43": {
+      "text": "Megtiltod Lirának, hogy kést készítsen. A lány szeme elsötétül, és elvonul a barlang másik végébe. Bár a törzs néhány tagja helyesel, érzed, hogy Lira mostantól kevésbé bízik benned.",
+      "choices": [
+        { "label": "Megpróbálod kiengesztelni őt.", "next": "57" },
+        { "label": "Ráhagyod a dolgot.", "next": "59" },
+        { "label": "Figyelni kezded, nehogy megszökjön.", "next": "58" }
+      ]
+    },
+    "44": {
+      "text": "A folyópart felé indulsz. A jeges víz szélén halászatra utaló nyomokat találsz: valaki hálót feszített ki korábban. A folyó jeges áramlata veszélyes, de bő zsákmányt kínálhat.",
+      "choices": [
+        { "label": "Megpróbálsz halat fogni.", "next": "88" },
+        { "label": "Továbbmész a folyó mentén.", "next": "45" },
+        { "label": "Visszafordulsz a táborhoz.", "next": "7" }
+      ]
+    },
+    "45": {
+      "text": "Az erdő mélyére érsz, ahol a fák roskadoznak a hó súlya alatt. A sűrű ágak valamelyest védelmet adnak a széltől. Nyomokat találsz: szarvascsorda járhatott itt nemrég.",
+      "choices": [
+        { "label": "Követed a szarvasokat.", "next": "46" },
+        { "label": "Tüzet raksz és pihensz.", "next": "61" },
+        { "label": "Tovább indulsz az erdő mélyére.", "next": "47" }
+      ]
+    },
+    "46": {
+      "text": "Rona, az öregasszony halkan mesél a régi időkről. Elmondja, hogy egyszer a törzs már találkozott egy ellenséges néppel, akik mágikus eszközöket használtak. Figyelmeztet: 'Ha újra felbukkannak, nemcsak a tél lesz az ellenségünk.'",
+      "choices": [
+        { "label": "Megköszönöd a történetet és visszamész a többiekhez.", "next": "7" },
+        { "label": "Kérdezel a mágikus eszközökről.", "next": "77" },
+        { "label": "Elindulsz nyomokat keresni a közelben.", "next": "36" }
+      ]
+    },
+    "47": {
+      "text": "Csatlakozol a gyerekek játékához. Hógolyózás közben a törzs tagjai is nevetnek, és egy pillanatra mindenki elfelejti a tél veszélyeit. Bár ez nem hoz élelmet, a jókedv erőt ad mindenkinek.",
+      "choices": [
+        { "label": "Folytatod a játékot.", "next": "61" },
+        { "label": "Visszamész a felnőttekhez.", "next": "7" },
+        { "label": "Elindulsz a hómezőre.", "next": "18" }
+      ]
+    },
+    "48": {
+      "text": "Elfogadod Karrok segítségét. A férfi boldogan csatlakozik hozzád a vadászatra. Bár ideges természetű, ügyes kezű, és jól bánik a tűzzel. Együtt indultok az erdő felé.",
+      "choices": [
+        { "label": "Tovább követsz vadat az erdőben.", "next": "45" },
+        { "label": "Táborhelyet kerestek.", "next": "61" },
+        { "label": "Visszafordultok a törzshöz.", "next": "7" }
+      ]
+    },
+    "49": {
+      "text": "Bár Karrok békülékenynek mutatkozik, te továbbra sem bízol benne. A törzs tagjai ezt észreveszik, és két részre szakadnak: vannak, akik melletted állnak, mások Karrok pártját fogják. A közösség megosztottá válik.",
+      "choices": [
+        { "label": "Megpróbálod összebékíteni a feleket.", "next": "20" },
+        { "label": "Keményen fellépsz Karrok ellen.", "next": "85" },
+        { "label": "Elhagyod a törzset önállóan.", "next": "18" }
+      ]
+    },
+    "50": {
+      "text": "Másra bízod a feladatot, Karrok nélkül. Ő sértetten néz rád, de nem szól semmit. A törzs tagjai vegyes érzelmekkel fogadják a döntést. A béke fennmarad, de a férfi árnyékként figyel a háttérben.",
+      "choices": [
+        { "label": "Tovább készülsz a télre.", "next": "61" },
+        { "label": "Karrokot titokban figyelteted.", "next": "58" },
+        { "label": "Elindulsz vadászni.", "next": "18" }
+      ]
+    },
+    "51": {
+      "text": "Elkíséred Karrokot az erdőbe. A férfi eleinte dühösen hallgat, de lassan megnyílik, és együtt sikerül elejteni egy szarvast. A közös siker közelebb hoz benneteket, és a törzs hálás a húsért.",
+      "choices": [
+        { "label": "Visszatértek a törzshöz a zsákmánnyal.", "next": "7" },
+        { "label": "Tovább maradtok az erdőben vadászni.", "next": "45" },
+        { "label": "Tüzet raktok és pihentek.", "next": "61" }
+      ]
+    },
+    "52": {
+      "text": "Hagyod, hogy Karrok egyedül menjen. Napokig nem tér vissza, míg végül egy csoport vadász talál rá: megsebesült és kimerült. Bár túléli, soha nem lesz többé a régi. A törzs tagjai téged hibáztatnak a sorsáért.",
+      "choices": [
+        { "label": "Megpróbálod visszanyerni a bizalmukat.", "next": "20" },
+        { "label": "Elvonulsz a közösségtől.", "next": "18" },
+        { "label": "Elfogadod a helyzetet és tovább élsz velük.", "next": "61" }
+      ]
+    },
+    "53": {
+      "text": "Megpróbálod lebeszélni Karrokot a vakmerő vállalkozásról. Bár dühös lesz, végül beadja a derekát. A feszültség egy időre enyhül, és a törzs tagjai fellélegeznek. A tél azonban még előttetek van.",
+      "choices": [
+        { "label": "Folytatjátok a készülődést a táborban.", "next": "61" },
+        { "label": "Elindulsz vadászni.", "next": "18" },
+        { "label": "Lirához fordulsz tanácsért.", "next": "10" }
+      ]
+    },
+    "54": {
+      "text": "Másnap elindultok Lirával vadászni. A lány lelkes, de tapasztalatlan. Az első próbálkozásotoknál egy szarvast űztök, de a lány majdnem megsebesül. Végül sikerül elejteni a vadat, és Lira boldogan ölel meg.",
+      "choices": [
+        { "label": "Visszaviszitek a húst a törzsnek.", "next": "7" },
+        { "label": "Tovább vadásztok közösen.", "next": "45" },
+        { "label": "Megpihentek az erdő szélén.", "next": "61" }
+      ]
+    },
+    "55": {
+      "text": "Kivárod a megfelelő pillanatot. Lira türelmetlen, de elfogadja. Végül, amikor a törzs vadászai távol vannak, együtt lopóztok ki az erdőbe. A veszély nagy, de a lehetőség is.",
+      "choices": [
+        { "label": "Elkapjátok az első vadat, amit láttok.", "next": "54" },
+        { "label": "Óvatosan haladtok mélyebbre.", "next": "45" },
+        { "label": "Visszafordultok a táborhoz.", "next": "7" }
+      ]
+    },
+    "56": {
+      "text": "Megosztod a törzzsel a tervet, hogy Lira vadászni menne. Az idősebbek ellene szólnak, a fiatalok viszont támogatják. Végül a törzs vezetője rád bízza a döntést.",
+      "choices": [
+        { "label": "Elindultok Lirával.", "next": "54" },
+        { "label": "Lemondtok róla.", "next": "24" },
+        { "label": "Más módon próbáljátok bizonyítani a bátorságotokat.", "next": "45" }
+      ]
+    },
+        "57": {
+      "text": "Bocsánatot kérsz Lirától. A lány lassan felenged, és újra beszélgetni kezd veled. Bár még mindig dacos egy kicsit, érzed, hogy a kapcsolatotok helyreállhat. A törzs többi tagja örül, hogy a béke megmarad.",
+      "choices": [
+        { "label": "Újra felajánlod, hogy vadászni viszed.", "next": "54" },
+        { "label": "Segítesz neki a táborban.", "next": "61" },
+        { "label": "Egyedül indulsz útnak.", "next": "18" }
+      ]
+    },
+    "58": {
+      "text": "Figyelni kezded Lirát és Karrokot, nehogy bajba sodorják magukat. Egyik éjjel látod, hogy Lira titokban elhagyja a tábort. Ha nem követed, könnyen veszélybe kerülhet.",
+      "choices": [
+        { "label": "Követed őt az erdőbe.", "next": "54" },
+        { "label": "Ébreszted a törzs vezetőit.", "next": "85" },
+        { "label": "Ráhagyod a dolgot.", "next": "59" }
+      ]
+    },
+    "59": {
+      "text": "Ráhagyod a dolgot, és hagyod, hogy Lira döntsön maga. A lány titokban valóban útnak indul, de több napig nem tér vissza. Amikor végül a vadászok megtalálják, sérült és kimerült. A törzs szemrehányóan néz rád.",
+      "choices": [
+        { "label": "Megpróbálod visszanyerni a bizalmukat.", "next": "20" },
+        { "label": "Egyedül indulsz bizonyítani.", "next": "18" },
+        { "label": "Elfogadod a hibádat.", "next": "61" }
+      ]
+    },
+    "60": {
+      "text": "Őrségbe állsz a barlang bejáratánál. A hideg szél az arcodat csípi, de a csillagok tisztán ragyognak az égen. Távolról farkasok vonyítását hallod. A törzs biztonságban pihen mögötted.",
+      "choices": [
+        { "label": "Kitartasz az őrségben.", "next": "61" },
+        { "label": "Visszatérsz a tűzhöz.", "next": "7" },
+        { "label": "Elindulsz felderíteni a zajt.", "next": "12" }
+      ]
+    },
+    "61": {
+      "text": "A törzs élete lassan telik a télben. A napok hidegek, a készletek fogynak, de a közösség együtt próbál túlélni. Néha viták törnek ki, néha ünnepi pillanatok is akadnak, amikor sikerül vadat ejteni.",
+      "choices": [
+        { "label": "Új vadászatot szervezel.", "next": "18" },
+        { "label": "Közösen ünnepeltek a tábortűznél.", "next": "62" },
+        { "label": "Tervet készítesz a jövőre.", "next": "84" }
+      ]
+    },
+    "62": {
+      "text": "A barlang bejáratánál körülnézve észreveszed, hogy a távolban fények villognak a hómezőn. Talán egy másik törzs tábortüzei. A döntésed most hatással lehet a jövőre.",
+      "choices": [
+        { "label": "Megközelíted a fényeket.", "next": "80" },
+        { "label": "Visszamész a többiekhez.", "next": "7" },
+        { "label": "Őrt állítasz a törzsből.", "next": "85" }
+      ]
+    },
+    "63": {
+      "text": "Futsz, ahogy csak tudsz, a hó pedig szinte elnyeli a lábad. A medve és a farkasok üvöltése mögötted hangzik, de végül sikerül elszöknöd. Kimerülten rogyasztasz össze, de életben maradtál.",
+      "choices": [
+        { "label": "Visszatérsz a törzshöz.", "next": "7" },
+        { "label": "Pihenés után folytatod az utad.", "next": "18" }
+      ]
+    },
+    "64": {
+      "text": "Moztulatlanul állsz, remélve, hogy a medve megnyugszik. Egy darabig figyel, majd végül elfordul, és visszafekszik. Halkan, lassan távozol a barlangból. Életben maradtál, de zsákmány nélkül.",
+      "choices": [
+        { "label": "Visszamész a törzshöz.", "next": "7" },
+        { "label": "Más vadat keresel.", "next": "18" }
+      ]
+    },
+    "65": {
+      "text": "Tovább küzdesz a medvével, de az állat ereje hatalmas. Bár sikerül megsebezned, végül a földre dönt, és sötétség borul rád. A történeted itt véget ér: hősiesen, de végzetesen.",
+      "choices": []
+    },
+    "66": {
+      "text": "Segítségért kiáltasz. A kiáltásodra a közelben járó vadászok meghallanak, és a törzsből ketten a segítségedre sietnek. Együtt sikerül elűzni az állatokat. Bár megsérülsz, életben maradsz.",
+      "choices": [
+        { "label": "Visszatérsz a táborhoz gyógyulni.", "next": "7" },
+        { "label": "Folytatod a vadászatot sérülten.", "next": "18" }
+      ]
+    },
+    "67": {
+      "text": "A barlang belsejében régi csontokat találsz, és falakon ősi rajzokat. Egy másik törzs nyomai ezek, akik talán már régen eltűntek. A hideg azonban egyre erősödik, és tudod, hogy nem maradhatsz sokáig.",
+      "choices": [
+        { "label": "Visszatérsz a törzshöz.", "next": "7" },
+        { "label": "Kincset keresel a barlangban.", "next": "68" }
+      ]
+    },
+    "68": {
+      "text": "A barlang mélyén találsz egy régi szarvasagancsból faragott amulettet. Amikor a kezedbe veszed, különös erőt érzel. Lehet, hogy szerencsét hoz, de lehet, hogy átok.",
+      "choices": [
+        { "label": "Megtartod az amulettet.", "next": "77" },
+        { "label": "Ott hagyod, és visszatérsz.", "next": "7" }
+      ]
+    },
+    "69": {
+      "text": "Türelmesen vársz a fa tetején. Végül a farkasok megunják a dolgot és elszélednek. Lassan lemászol, és a hideg csendben újra szabadnak érzed magad.",
+      "choices": [
+        { "label": "Visszatérsz a törzshöz.", "next": "7" },
+        { "label": "Más nyomokat keresel a hóban.", "next": "36" }
+      ]
+    },
+    "70": {
+      "text": "Egy ágat dobsz a farkasokra, és az egyik állat sérülten elmenekül. A többiek azonban dühödten támadnak rád. Bár sikerül védekezned, súlyos sebeket szerzel. Végül a farkasok elvonulnak, de alig élsz.",
+      "choices": [
+        { "label": "Visszatérsz a törzshöz gyógyulni.", "next": "7" }
+      ]
+    },
+    "71": {
+      "text": "Átmászol egy másik fára, és lassan eltávolodsz a falkától. Bár veszélyes manőver volt, sikerrel jártál. A farkasok nem követnek tovább.",
+      "choices": [
+        { "label": "Visszatérsz a törzshöz.", "next": "7" },
+        { "label": "Folytatod az utad az erdőben.", "next": "45" }
+      ]
+    },
+    "72": {
+      "text": "Dárdával védekezel, és sikerül halálosan megsebezned az egyik farkast. A többiek felvonítanak, majd visszavonulnak. Bár diadalt arattál, a sérüléseid fájnak.",
+      "choices": [
+        { "label": "Hazatérsz a törzshöz.", "next": "7" },
+        { "label": "Tovább indulsz, bízva az erődben.", "next": "18" }
+      ]
+    },
+    "73": {
+      "text": "A farkas torkát ragadod meg, és kétségbeesett küzdelemben sikerül elriasztanod. A falkavezér vonyítva fut el, a többiek pedig követik. Te sérülten, de életben maradsz.",
+      "choices": [
+        { "label": "Visszatérsz a törzshöz.", "next": "7" }
+      ]
+    },
+    "74": {
+      "text": "Gyorsan levágsz néhány darab húst a mamutból, és menekülni kezdesz. Bár a csorda majdnem elér, sikerül megmenekülnöd a zsákmánnyal. A törzs ünnepli a bátorságod.",
+      "choices": []
+    },
+    "75": {
+      "text": "Futsz, amíg csak bírod, de a hideg és a fáradtság kimerít. Végül összeesel a hóban, és a sötétség elnyel. A történeted tragikusan ér véget.",
+      "choices": []
+    },
+    "76": {
+      "text": "Ugar segítségére siet, és együtt menekültök el a mamutcsorda elől. Bár a vadat nem ejtitek el, az életed megmarad. Az öreg vadász büszkén néz rád.",
+      "choices": []
+    },
+    "77": {
+      "text": "Az ősi tárgy erőt ad neked. Úgy érzed, képes vagy megvédeni a törzsedet a tél és az ellenségek ellen. A többiek vezetőként tekintenek rád, és új korszak kezdődik.",
+      "choices": []
+    },
+    "78": {
+      "text": "Elásod a furcsa szerszámot, de a szíved mélyén érzed, hogy talán nagy hatalmat hagytál hátra. A törzs békében él tovább, de a jövő rejtély marad.",
+      "choices": []
+    },
+    "79": {
+      "text": "Ugar átveszi a szerszámot, és hosszasan vizsgálja. 'Ez veszélyes' – mondja, majd összetöri egy sziklán. Bár az erejéről lemondtok, a törzs hálás a biztonságért.",
+      "choices": []
+    },
+    "80": {
+      "text": "Megközelíted az idegen törzs táborát. Ők is észrevesznek téged. Az első pillanatban feszültség támad, de végül beszélgetés kezdődik. Ha ügyesen tárgyalsz, szövetség születhet.",
+      "choices": []
+    },
+    "81": {
+      "text": "Barátságosan közelítesz az idegen vadászokhoz. Bár eleinte gyanakodnak, végül elfogadják a jelenlétedet. Az orrszarvú zsákmányából is részesedsz, és új szövetség születik.",
+      "choices": []
+    },
+    "82": {
+      "text": "Elbújsz a hókupac mögött, de az idegen vadász észrevesz. Nyílvessző csapódik melléd, és menekülnöd kell. Bár életben maradsz, tudod, hogy ellenséget szereztél.",
+      "choices": []
+    },
+    "83": {
+      "text": "Tovább figyeled őket rejtve. Végül látod, ahogy eltűnnek a hóviharban. Nem szereztek tudomást rólad, de te tudod, hogy a közelben élnek. Ez a tudás még fontos lehet.",
+      "choices": []
+    },
+    "84": {
+      "text": "A törzs közösen készül a jövőre. Új fegyvereket készítetek, több élelmet halmoztok fel, és erősebb közösséggé váltok. A tél végén a törzs új reménnyel néz a jövőbe.",
+      "choices": []
+    },
+    "85": {
+      "text": "Harckészültségbe állítod a törzset. Bár feszültség nő bennetek, készen álltok bármire. Amikor az idegen törzs felbukkan, véres összecsapásra kerül sor. Bár sokan elesnek, a ti törzsetek marad talpon.",
+      "choices": []
+    },
+    "86": {
+      "text": "Vártok, figyeltek, és nem tesztek semmit. Az idegen törzs elvonul mellettetek, és sosem szereznek tudomást rólatok. Bár túléltek, a lehetőség elszáll, hogy szövetséget vagy erőt szerezzetek.",
+      "choices": []
+    },
+    "87": {
+      "text": "Átkelsz a jégszakadékon, és eljutsz a túloldalra. Ott egy kisebb szarvascsordát találsz, amit sikerül elejtened. A hús és a bőr megmenti a törzsedet a tél hátralévő részében. Győzelemmel zárul a történeted.",
+      "choices": []
+    }
+  }
+}
+

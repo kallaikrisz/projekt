@@ -1,0 +1,308 @@
+{
+  "title": "A Csillaghajó Krónikái",
+  "start": "1",
+  "chapters": {
+    "1": {
+      "text": "A Galaxis peremén sodródó, rozsdás csillaghajó, az 'Aurora' lassan siklik a fekete űrben. A kapitányi hídon a monitorok villognak, a szellőzőkből halk zümmögés hallatszik. A fedélzeten egy ideges mérnök, egy fiatal kadét és egy mogorva fegyvermester áll készenlétben. A hajó mesterséges intelligenciája, Epsilon, monoton hangon közli: 'Ismeretlen jel érkezik a közeli szektor felől.' A legénység tanácstalanul néz rád, a küldetés vezetőjére.",
+      "choices": [
+        { "label": "Ráhangolódsz a titokzatos jelre", "next": "2" },
+        { "label": "Elutasítod a jelet, és folytatod az útvonalat", "next": "3" },
+        { "label": "Kiküldesz egy felderítő drónt", "next": "4" }
+      ]
+    },
+    "2": {
+      "text": "A hajó antennái a jel irányába fordulnak. A hang recsegő statikus, de lassan szavakká formálódik: 'Segítség... kolónia... támadás...' A fiatal kadét szeme tágra nyílik, míg a mérnök kételkedve jegyzi meg, hogy ez akár csapda is lehet. A fegyvermester morogva a fegyverraktár felé pillant.",
+      "choices": [
+        { "label": "Megpróbálod bemérni a jel forrását", "next": "5" },
+        { "label": "Elutasítod a hívást, túl kockázatos", "next": "6" },
+        { "label": "Kiküldesz egy drónt a jel irányába", "next": "4" }
+      ]
+    },
+    "3": {
+      "text": "Úgy döntesz, hogy nem foglalkozol a jellel. A hajó az eredeti útvonalon halad tovább, az űr csendje körülvesz. A fedélzeten a feszültség oldódik, de a kadét láthatóan csalódott. Az ablakon túl lassan egy gázóriás bolygó képe rajzolódik ki, körülötte romos állomások sziluettje.",
+      "choices": [
+        { "label": "Megállsz az állomásoknál felderíteni", "next": "7" },
+        { "label": "Folytatod az utat a következő szektorba", "next": "8" }
+      ]
+    },
+    "4": {
+      "text": "A drón kilép a hajó hangárjából, és csendben siklik a sötét űrben. Kamerái pásztázzák a szektor szélét, ahol egy sérült kutatóállomás sziluettje rajzolódik ki. A jel egyenesen onnan érkezik. A drón adatai alapján az állomás rendszerei súlyosan sérültek, és több életjelet is észlel.",
+      "choices": [
+        { "label": "Közelíted az Aurorát az állomáshoz", "next": "9" },
+        { "label": "Visszahívod a drónt, túl veszélyes", "next": "6" },
+        { "label": "Elküldöd a drónt mélyebbre az állomásba", "next": "10" }
+      ]
+    },
+    "5": {
+      "text": "Az Aurora szenzorai ráállnak a jel forrására. A koordináták egy régi bányászállomást mutatnak, amelyet régóta elhagyatottnak hittek. A kadét lelkes, a mérnök azonban kételkedve csóválja a fejét. Az állomás körül törmelékfelhő lebeg, ami megnehezíti a megközelítést.",
+      "choices": [
+        { "label": "Megkockáztatod a dokkolást", "next": "9" },
+        { "label": "Körbejáratod az állomást, mielőtt döntesz", "next": "11" }
+      ]
+    },
+    "6": {
+      "text": "A jelet figyelmen kívül hagyva továbbhaladtok. Az űr végtelen sötétje vesz körül, és Epsilon figyelmeztet: 'Ismeretlen hajók észlelve a radar közelében.' A fegyvermester azonnal élesíti a rendszereket, míg a kadét idegesen pislog. Lehet, hogy a hívás csapda volt, és most közvetlenül rád találtak az ellenségek.",
+      "choices": [
+        { "label": "Felveszed a harcot", "next": "12" },
+        { "label": "Megpróbálsz elrejtőzni egy aszteroida árnyékában", "next": "13" },
+        { "label": "Vészugrást indítasz a hiperűrbe", "next": "14" }
+      ]
+    },
+    "7": {
+      "text": "A romos állomások körül kísérteties csend uralkodik. Az egyik dokkolókapu félig nyitva áll, belül villódzó fények látszanak. A mérnök szerint lehetnek még működő rendszerek, de a fegyvermester csapdát sejt. A kadét izgatottan figyeli az ismeretlen objektumokat.",
+      "choices": [
+        { "label": "Dokkolást kezdeményezel", "next": "9" },
+        { "label": "Küldesz egy drónt felderítésre", "next": "10" },
+        { "label": "Továbbállsz", "next": "8" }
+      ]
+    },
+    "8": {
+      "text": "Az Aurora elhagyja a szektort, és belép egy sűrű aszteroida mezőbe. A hajó rázkódik, miközben a pajzsok alig tartják a becsapódó kövek ellen. Epsilon figyelmeztet, hogy az útvonal veszélyes, és egy régi kereskedőhajó roncsait is érzékeli a közelben.",
+      "choices": [
+        { "label": "Megállsz, hogy átvizsgáld a roncsot", "next": "15" },
+        { "label": "Tovább navigálsz az aszteroida mezőben", "next": "16" }
+      ]
+    },
+    "9": {
+      "text": "A hajó dokkol az állomás rozsdás kapujánál. A levegő zsizseg a statikus töltéstől, miközben a zsilip lassan kinyílik. Bent elhagyatott folyosók, villódzó fények és elhagyott konzolok fogadnak. A sötétben halk nyögéseket hallotok, valaki még életben lehet.",
+      "choices": [
+        { "label": "Beljebb merészkedsz a folyosókon", "next": "17" },
+        { "label": "Visszavonulsz a hajóra", "next": "18" },
+        { "label": "Küldöd a fegyvermestert előre felderíteni", "next": "19" }
+      ]
+    },
+    "10": {
+      "text": "A drón a sötét folyosókon siklik végig. Kamerái rozsdás ajtókat és szétszórt eszközöket mutatnak. Egyik szobában több emberi alak is látszik – kimerültek, de élnek. Az adás hirtelen megszakad, mintha valami elharapta volna a jelet.",
+      "choices": [
+        { "label": "Azonnal indulsz a mentésükre", "next": "17" },
+        { "label": "Visszavonulsz, túl kockázatos", "next": "18" }
+      ]
+    },
+    "11": {
+      "text": "Az Aurora lassan körbejárja az állomást. Az érzékelők kimutatják, hogy az egyik szektorban még működnek a generátorok. Egy másik részen erős radioaktív sugárzás van. A mérnök szerint a generátort lehetne hasznosítani, de kockázatos.",
+      "choices": [
+        { "label": "A generátorok felé dokkolsz", "next": "20" },
+        { "label": "Elkerülöd a sugárzást, és másik oldalról próbálkozol", "next": "9" }
+      ]
+    },
+    "12": {
+      "text": "Az idegen hajók tüzet nyitnak. Az Aurora pajzsai szikráznak, a fegyvermester ágyúi visszalőnek. A hajó megrázkódik, a kadét remegve kapaszkodik a konzolba. A csata kimenetele kétséges: vagy győzöl, vagy a hajó darabokra szakad.",
+      "choices": [
+        { "label": "Tovább harcolsz minden erővel", "next": "21" },
+        { "label": "Megpróbálsz kitörni a harcból", "next": "14" }
+      ]
+    },
+    "13": {
+      "text": "Az Aurora egy hatalmas aszteroida árnyékába húzódik. Az idegen hajók pásztázzák a környéket, keresve a nyomodat. A fedélzeten feszült csend honol, csak a mérnök halkan mormogja, hogy a pajzsok túlterheltek. A kadét szeme rád szegeződik: most rajtad a sor, hogy döntést hozz.",
+      "choices": [
+        { "label": "Csendben vársz, amíg elmennek", "next": "22" },
+        { "label": "Támadást indítasz meglepetésszerűen", "next": "21" },
+        { "label": "Vészugrást indítasz", "next": "14" }
+      ]
+    },
+    "14": {
+      "text": "Az Aurora hiperhajtóművei felzúgnak, és a hajó fényvillanással eltűnik a szektorból. A csillagok csíkokká nyúlnak, majd csend áll be. Biztonságban vagytok – egyelőre. A kadét fellélegzik, de a fegyvermester szerint örökké nem futhattok.",
+      "choices": [
+        { "label": "Új célpontot keresel", "next": "23" },
+        { "label": "Visszatérsz a bázisra jelentést tenni", "next": "24" }
+      ]
+    },
+    "15": {
+      "text": "A roncs belsejében régi kereskedelmi konténerek hevernek szétszórva. Egy félig működő robot szikrázik, ahogy rád fordítja kameráját. A mérnök szerint értékes technológiát találhattok, de a robot agresszíven közeledik.",
+      "choices": [
+        { "label": "Megpróbálod deaktiválni a robotot", "next": "25" },
+        { "label": "Visszavonulsz a roncsból", "next": "16" }
+      ]
+    },
+    "16": {
+      "text": "Az Aurora óvatosan navigál az aszteroida mezőben. A hajótest újabb és újabb becsapódásokat szenved, de a pajzs még tart. A kadét izgatottan jelenti, hogy egy elhagyott kolónia kupolái látszanak a mező szélén. Lehetőség nyílik menedéket találni, de akár veszély is leselkedhet ott.",
+      "choices": [
+        { "label": "Megközelíted a kolóniát", "next": "26" },
+        { "label": "Továbbhaladsz a mezőn keresztül", "next": "27" }
+      ]
+    },
+    "17": {
+      "text": "Beljebb hatoltok az állomás sötét folyosóin. A levegő fémes és poros, a falak között visszhangzik a lépteitek zaja. Egy sarkon túl egy sebesült tudós fekszik, aki könyörög a segítségért. Mögötte azonban furcsa, sziszegő hang hallatszik a sötétből.",
+      "choices": [
+        { "label": "Segítesz a tudósnak", "next": "28" },
+        { "label": "A hang irányába indulsz", "next": "29" },
+        { "label": "Visszavonulsz a hajóra", "next": "18" }
+      ]
+    },
+    "18": {
+      "text": "Úgy döntesz, túl kockázatos a küldetés, és visszatérsz az Aurorára. A zsilipajtó lassan becsukódik mögöttetek, és a hajó elindul az üres űrben. A kadét csalódott, a fegyvermester viszont megkönnyebbülten sóhajt. A kaland talán máshol folytatódhat.",
+      "choices": [
+        { "label": "Új célpontot keresel", "next": "23" },
+        { "label": "Visszatérsz a bázisra", "next": "24" }
+      ]
+    },
+    "19": {
+      "text": "A fegyvermester előremegy, fegyverrel a kezében. Hirtelen lövések dördülnek, majd kiáltás hallatszik: 'Ellenség!' A folyosó végén idegen lények árnyai rajzolódnak ki, villogó fegyverekkel. A döntés a tiéd: csatlakozol hozzá, vagy visszahívod.",
+      "choices": [
+        { "label": "Csatlakozol a harcba", "next": "30" },
+        { "label": "Visszahívod és visszavonultok", "next": "18" }
+      ]
+    },
+    "20": {
+      "text": "Az Aurora a generátorokhoz dokkol. A folyosók sötétek, de a háttérben mély búgás hallatszik. A mérnök felcsillanó szemmel vizsgálja a berendezéseket, és azt mondja: 'Ez a rendszer még helyrehozható!' Ugyanakkor a közelből fémtalpú lépések zaja hallatszik.",
+      "choices": [
+        { "label": "Segítesz a mérnöknek megjavítani a generátort", "next": "31" },
+        { "label": "Felkészülsz a támadásra", "next": "30" }
+      ]
+    },
+    "21": {
+      "text": "A hajó összes fegyvere tüzet zúdít az ellenségre. Az Aurora remeg a visszacsapásoktól, de az idegen hajók egy része megsemmisül. A fegyvermester ujjong, de a pajzsok gyengülnek. Ha folytatod, nyerhetsz, de a hajó elpusztulhat.",
+      "choices": [
+        { "label": "Tovább folytatod a csatát", "next": "32" },
+        { "label": "Megpróbálsz visszavonulni", "next": "14" }
+      ]
+    },
+    "22": {
+      "text": "Csendben vártok az aszteroida árnyékában. Az idegen hajók pásztáznak, majd lassan eltávolodnak. A fedélzeten mindenki fellélegzik. A kadét mosolyogva jegyzi meg, hogy talán megúsztátok – de meddig?",
+      "choices": [
+        { "label": "Új célpontot keresel", "next": "23" },
+        { "label": "Visszatérsz a bázisra", "next": "24" }
+      ]
+    },
+    "23": {
+      "text": "Új koordinátákat állítasz be. A hajó elindul egy eddig ismeretlen szektor felé, ahol titokzatos gázköd gomolyog. A szenzorok gyenge energiakitöréseket jeleznek. Ez akár lehetőség, akár veszély is.",
+      "choices": [
+        { "label": "Belépsz a gázködbe", "next": "33" },
+        { "label": "Elkerülöd és továbbhaladsz", "next": "34" }
+      ]
+    },
+    "24": {
+      "text": "Az Aurora visszatér a központi bázisra. A parancsnokságon rideg tisztek fogadnak, akik jelentést kérnek a küldetésről. A kadét csalódott, hogy nem éltétek át a kalandot, de a fegyvermester elégedett. A történet itt véget ér: visszatértetek a biztonságba, de kihagytatok egy nagy lehetőséget.",
+      "choices": []
+    },
+    "25": {
+      "text": "A robot szikrázva támad rád, de sikerül deaktiválnod. A roncsban találsz egy értékes energiamagot, amelyet a mérnök izgatottan vizsgál. 'Ez megmentheti a hajót egy válságos helyzetben!' – mondja. A fegyvermester azonban azt javasolja, hogy siessetek innen.",
+      "choices": [
+        { "label": "Elhagyod a roncsot", "next": "16" },
+        { "label": "Tovább kutatsz a roncsban", "next": "35" }
+      ]
+    },
+    "26": {
+      "text": "A kolónia kupolái alatt kihalt utcák terülnek el. A házak falai megrepedeztek, a levegőben finom por lebeg. Egy öreg telepes remegő hangon szólít meg: 'Végre valaki... segítséget hoztatok?' A szemeiben remény és félelem csillog.",
+      "choices": [
+        { "label": "Beszélgetsz az öreggel", "next": "36" },
+        { "label": "Elindulsz felfedezni a kolóniát", "next": "37" }
+      ]
+    },
+    "27": {
+      "text": "Az Aurora tovább küzd az aszteroida mezőben. A pajzsok pislákolnak, és a hajó súlyosan megsérül. Epsilon figyelmeztet: 'Az energiaszint kritikus!' Már csak kevés időtök van, mielőtt a hajó megadja magát.",
+      "choices": [
+        { "label": "Menekülést indítasz a legközelebbi szektorba", "next": "38" },
+        { "label": "Megpróbálod a roncsokat fedezéknek használni", "next": "39" }
+      ]
+    },
+    "28": {
+      "text": "A tudóst felemeled, és a hajóra viszed. Könnyekkel a szemében hálálkodik, majd elmondja, hogy az állomást idegen lények támadták meg. A mérnök gyorsan ellátja a sebeit, de ő figyelmeztet: 'Még mindig itt vannak... figyelnek minket!'",
+      "choices": [
+        { "label": "Megpróbálod kimenekíteni a túlélőket", "next": "40" },
+        { "label": "Elhagyod az állomást a tudóssal", "next": "18" }
+      ]
+    },
+    "29": {
+      "text": "A sötét folyosón mély sziszegés hallatszik, majd előtör egy hatalmas, páncélozott idegen. Vicsorgó állkapcsából fémes nyál csöpög, szemeiben vörös fény izzik. A fegyvermester azonnal tüzelni kezd, de a lény előretör.",
+      "choices": [
+        { "label": "Harcba bocsátkozol", "next": "41" },
+        { "label": "Visszavonulsz a hajóra", "next": "18" }
+      ]
+    },
+    "30": {
+      "text": "A fegyvermester oldalán harcolsz, miközben az idegenek hulláma rátok zúdul. A folyosó fényekkel és lövedékekkel telik meg, a levegő szikrázik. Bár többet sikerül elpusztítanotok, a túlerő elsöprő.",
+      "choices": [
+        { "label": "Visszavonultok a hajóra", "next": "18" },
+        { "label": "Utolsó emberként harcolsz tovább", "next": "42" }
+      ]
+    },
+    "31": {
+      "text": "A mérnökkel együtt dolgozol a generátorokon. A szikrázó kábelek és szivárgó csövek között próbáljátok helyreállítani az áramellátást. Hirtelen a rendszerek felélednek, a fények kigyulladnak, de a zaj felkelti valakinek a figyelmét. A folyosó végén árnyak mozdulnak meg.",
+      "choices": [
+        { "label": "Fegyvert ragadsz és felkészülsz a harcra", "next": "41" },
+        { "label": "Azonnal visszavonulsz a hajóra", "next": "18" }
+      ]
+    },
+    "32": {
+      "text": "Az Aurora minden fegyverét beveted, és végül sikerül elpusztítani az idegen hajókat. A fedélzeten mindenki ujjong, a kadét könnyeivel küszködik az örömtől. Azonban a hajó is súlyosan megsérült, a pajzsok leégtek, és a rendszerek instabilak. Túlélni sikerült, de az utazás folytatása kérdéses.",
+      "choices": [
+        { "label": "Visszatérsz a bázisra a sérült hajóval", "next": "24" },
+        { "label": "Megpróbálsz menedéket találni egy közeli szektorban", "next": "38" }
+      ]
+    },
+    "33": {
+      "text": "A hajó belép a sűrű gázködbe. A látótávolság minimális, a hajó műszerei zavarodott adatokat küldenek. A ködben hatalmas, világító alakzatok úsznak, mintha óriási lények lennének. A kadét rémülten nézi, a mérnök pedig döbbenten suttog: 'Ezek... élnek.'",
+      "choices": [
+        { "label": "Kapcsolatot próbálsz létesíteni velük", "next": "43" },
+        { "label": "Elhagyod a ködöt, mielőtt veszélyessé válik", "next": "34" }
+      ]
+    },
+    "34": {
+      "text": "Elkerülöd a gázködöt, és továbbhaladsz a galaxis pereme felé. Az űr csendes, de a fedélzeten mindenki érzi: talán most kerültétek el a legnagyobb veszélyt. Ugyanakkor egy új, ismeretlen koordináta jelenik meg a műszerfalon, mintha valaki szándékosan küldte volna.",
+      "choices": [
+        { "label": "Követed az új koordinátát", "next": "44" },
+        { "label": "Figyelmen kívül hagyod, és a bázis felé fordulsz", "next": "24" }
+      ]
+    },
+    "35": {
+      "text": "Tovább kutatsz a roncsban. Az egyik rekeszben egy lezárt ládát találsz, rajta idegen szimbólumokkal. A fegyvermester gyanakszik, a kadét viszont izgatott. A mérnök szerint lehet, hogy értékes technológia van benne.",
+      "choices": [
+        { "label": "Kinyitod a ládát", "next": "45" },
+        { "label": "Otthagyod, túl veszélyes", "next": "16" }
+      ]
+    },
+    "36": {
+      "text": "Az öreg telepes elmondja, hogy a kolóniát idegen fosztogatók támadták meg. A túlélők rejtőzködnek, de kevés az élelmük és az oxigénjük. Könnyek között kér segítséget. A kadét szíve megszakad, a fegyvermester viszont azt mondja: túl nagy a kockázat.",
+      "choices": [
+        { "label": "Segítesz a kolóniának", "next": "40" },
+        { "label": "Elhagyod a helyszínt", "next": "18" }
+      ]
+    },
+    "37": {
+      "text": "Felfedezed a kolónia utcáit. Az egyik házban gyermekek bújnak össze, akik rémülten néznek rád. Egy fiatal anya reszketve kéri, hogy mentsd meg őket. A mérnök szerint elférnének a hajón, de a készletek szűkösek.",
+      "choices": [
+        { "label": "Felajánlod a szállítást a hajóra", "next": "40" },
+        { "label": "Elutasítod, túl veszélyes", "next": "18" }
+      ]
+    },
+    "38": {
+      "text": "A hajó egy biztonságosabb szektorba érkezik, ahol egy magányos kutatóállomás működik. A tudósok örömmel fogadnak, és segítséget nyújtanak a hajó javításában. Bár a kaland veszélyes volt, most békés menedéket találtatok.",
+      "choices": []
+    },
+    "39": {
+      "text": "A roncsokat fedezékként használva sikerül ideiglenesen megállítani a hajó sérüléseit. Azonban az Aurora rendszerei összeomlanak, és lassan sodródni kezdtek a végtelen űrben. A fedélzeten mindenki tudja: ez az út véget ért.",
+      "choices": []
+    },
+    "40": {
+      "text": "A túlélőket sikerül kimenekíteni. A hajó zsúfolt, de a fedélzeten hálás arcok tekintenek rád. Az öreg telepes remegő kézzel megszorítja a karod, és azt mondja: 'Reményt hoztatok nekünk.' Bár a jövő bizonytalan, ma hősökként tekintenek rátok.",
+      "choices": []
+    },
+    "41": {
+      "text": "A fegyverek tüzében lángba borul a folyosó. Az idegen lény félelmetes üvöltéssel rohan felétek, de közös erővel végül elpusztítjátok. A mérnök zihálva támaszkodik a falhoz, a kadét szemében rémület csillog. Bár túlélitek, a sebek mélyek.",
+      "choices": [
+        { "label": "Visszavonultok a hajóra", "next": "18" },
+        { "label": "Folytatod a kutatást az állomáson", "next": "42" }
+      ]
+    },
+    "42": {
+      "text": "Utolsó emberként állsz a folyosón, miközben az idegenek egyre közelednek. A fegyvered túlmelegszik, a levegő fémes szikrákkal telik meg. Bár hősiesen harcolsz, végül elnyel a sötétség. A történet itt véget ér – a bátorságod örökre emlékezet marad.",
+      "choices": []
+    },
+    "43": {
+      "text": "Kapcsolatot próbálsz létesíteni a fénylényekkel. A hajó rendszerei fényjeleket küldenek, és lassan az alakzatok válaszolnak. A fedélzeten mindenki ámul: békés, intelligens fajjal találkoztatok, akik tudást osztanak meg veletek. Ez új korszak kezdete lehet.",
+      "choices": []
+    },
+    "44": {
+      "text": "Az új koordináta egy rejtett állomáshoz vezet, amely tele van kincsekkel és ritka technológiákkal. A legénység ujjong, a kadét nevetve ölel meg. Bár sok veszélyt vállaltatok, most bőséges jutalmat nyertetek.",
+      "choices": []
+    },
+    "45": {
+      "text": "Kinyitod a ládát, és belül egy különös, pulzáló kristályt találsz. A mérnök felismeri: 'Ez egy energiamag, amivel akár egész világokat is működtethetünk.' De a fegyvermester komoran megjegyzi: 'És egész flottákat is pusztíthat.' A döntésed sorsfordító lehet.",
+      "choices": [
+        { "label": "Hazaviszed a bázisra", "next": "24" },
+        { "label": "Titokban megtartod magatoknak", "next": "44" }
+      ]
+    }
+  }
+}

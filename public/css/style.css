@@ -1,0 +1,97 @@
+/* Alap stílus */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Történet doboz */
+#story {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Fejezet cím */
+#story h1 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #222;
+  text-align: center;
+}
+
+/* Fejezet szöveg */
+#story p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Képek */
+#story img {
+  display: block;
+  margin: 0 auto 15px;
+  max-width: 100%;
+  max-height: 50vh;   /* max. fél képernyő magas lehet */
+  border-radius: 10px;
+  margin-bottom: 15px;
+  object-fit: contain; /* ne torzuljon, ha nagyobb */
+}
+
+
+/* Választási lehetőségek doboza */
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Választási gombok */
+.choices button {
+  flex: 1;
+  min-width: 150px;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: #007BFF;
+  color: white;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.choices button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Hangvezérlés ikon */
+.audio-control {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 50px;        /* nagyobb ikon */
+  user-select: none;
+  background: rgba(0, 123, 255, 0.8);  /* kék háttér */
+  color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s, background 0.2s;
+}
+
+.audio-control:hover {
+  transform: scale(1.1);
+  background: rgba(0, 123, 255, 1);   /* élénkebb kék hover */
+}
+

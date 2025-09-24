@@ -1,0 +1,266 @@
+{
+  "title": "A Vörös Kereszt zászlaja",
+  "start": "1",
+  "chapters": 
+  {
+  "1": 
+  {
+    "text": "A nappal lassan kihuny Acre poros kapui fölött, a táborban mégis zsibongás kél: kovácsok csörömpölnek, szíjgyártók vitatkoznak, szamarak makacsolják magukat. A friss tengeri szél sója keveredik a füsttel és a rozmaringgal, amellyel a szakácsok a leveseket ízesítik. A sátrak közt egy ideges írnok pergameneket szorongat, egy örmény kereskedő cifraszavakkal dicséri az áruit, és egy megtört tekintetű zarándok a válladnál könyörög figyelemért. A Templomos őrmester a távolban éppen fegyelmez egy részeg íjászt, miközben a kőfalakon túl a mólón arab halászok suttognak. Lovad ingerülten dobbant: parancsra, üzletre vagy irgalomra vársz.",
+    "choices": [
+      { "label": "A bazár felé indulsz, hogy híreket és felszerelést szerezz", "next": "2" },
+      { "label": "Jelentkezel a parancsnoki sátorban új feladatért", "next": "3" },
+      { "label": "Meghallgatod a zarándok történetét a relikvia térképéről", "next": "4" }
+    ]
+  },
+  "2": 
+  {
+    "text": "A bazár színes sátrait olajmécsek fénye rezegteti, a datolya és a gyömbér illata összekeveredik a bőrkesztyűk szagával. Egy fiatal utcagyerek lopva figyeli az erszényedet, miközben egy dörmögő fazekas a cserépedényeit dicséri. A sarokban egy örmény kereskedő selymeket és híreket is árul, kicsit túl hangosan. Az ajtó mögött egy mogorva patikus mérgeket és gyógyírt egyaránt tart.",
+    "choices": [
+      { "label": "Utánamész a lesben álló tolvajkölyöknek", "next": "5" },
+      { "label": "Alkudozol az örmény kereskedővel információért", "next": "6" },
+      { "label": "Belépsz a patikus fülledt, gyógynövényes boltjába", "next": "7" }
+    ]
+  },
+  "3": 
+  {
+    "text": "A parancsnoki sátorban Károly mester a térképre bök: zászlónk a hegyi kolostorban tűnt el, a rend becsületét csak visszaszerzéssel menthetjük. Egy tolmács azt suttogja, hogy a közeli emír tárgyalna hadifoglyok ügyében, de könnyen csapdává válhat a találkozó. A raktárnál egy megrettent szekérkaraván őröket keres a part menti olajligeteken át. Az írnok bosszúsan sercegteti a tollát, és a háttérben a szakács fokhagymát tör.",
+    "choices": [
+      { "label": "A hegyi kolostor felé veszed az irányt a zászlóért", "next": "8" },
+      { "label": "Elfogadod a követséget az emírhez", "next": "9" },
+      { "label": "A szekérkaravánt kíséred az olajligeteken át", "next": "10" }
+    ]
+  },
+  "4": {
+    "text": "A zarándok rekedt hangon mesél: egy térkép, amely a Szent Lándzsa rejtekéhez vezet, de a jelek titkosak és cserélődnek a holdfázissal. Ujjai remegnek, mikor egy foltos pergament nyújt: só és homok marja a széleit. Egy foghíjas halárus a háttérben nevet rajtatok, mégis közelebb hajol, hogy halljon. A zarándok vállán durva kötél nyoma, mintha nemrég hurcolták volna.",
+    "choices": [
+      { "label": "Megvizsgálod a térkép jeleit és rejtjeleit", "next": "11" },
+      { "label": "A kolostor gyógyítóihoz kíséred a zarándokot", "next": "12" },
+      { "label": "Elutasítod a mesét, inkább imádkozni mész a kápolnába", "next": "13" }
+    ]
+  },
+  "5": {
+    "text": "A sikátorok hirtelen szűkülnek, a kőlapok nyirkosak, a gyerek úgy cikázik, mint egy macska. Egy deres szakállú kútásó morogva félreáll, miközben a fali fülkékből fűszerek és mécsesek bámulnak rád. A gyerek végül egy ledőlt boltívnél torpan, sötét szemében egyszerre van dac és félelem.",
+    "choices": [
+      { "label": "Megpróbálsz békésen beszélni vele", "next": "14" },
+      { "label": "A háztetőkön át próbálod elvágni az útját", "next": "15" },
+      { "label": "Úgy teszel, mintha feladnád, de lopva követed", "next": "16" }
+    ]
+  },
+  "6": {
+    "text": "Az örmény kereskedő selymet terít előd, de szavai gyorsabban suhannak, mint az ujjai. Azt állítja: a kolostor körül új bandák garázdálkodnak, a fénylő zászlót is ők vihették. Egy karcos hangú, ideges bádogos közbeszól: \"Az emír sátránál is mocskos játék folyik!\" A kereskedő gúnyosan kacsint, és tenyerét tartja.",
+    "choices": [
+      { "label": "Fizetsz az információért", "next": "17" },
+      { "label": "Alkudozol, hogy kevesebbért beszéljen", "next": "18" },
+      { "label": "Megfélemlíted, hogy ingyen beszéljen", "next": "19" }
+    ]
+  },
+  "7": {
+    "text": "A patikus boltjában szárított zsálya és alún keserű illata terjeng. A pult mögött egy fáradt szemű asszony kavarja a főzetet, a sarokban egy vándorbarát köhögve vár sorra. A patikus óv: a dokkoknál betegség üti fel a fejét, és rossz szél jár a mólón.",
+    "choices": [
+      { "label": "Segítesz a dokkoknál a betegek elkülönítésében", "next": "20" },
+      { "label": "Legyintesz és visszatérsz a piactérre", "next": "21" },
+      { "label": "Gyógyfüveket és fertőtlenítőt vásárolsz", "next": "22" }
+    ]
+  },
+  "8": {
+    "text": "A hegyre kapaszkodó ösvény porát vér és harmat keveri a hajnali ködben. A bozótból elnyűtt ruhájú útonállók bukkannak elő, arcukon kendő, kezükben rozsdás lándzsa. A távolban a kolostor csengői halkan szólnak, mintha figyelmeztetnének. Egy borbélysegéd fut át a kőhídon, úgy téve, mintha semmit sem látna.",
+    "choices": [
+      { "label": "Felsorakoztatod embereid és szembeszállsz", "next": "23" },
+      { "label": "Megpróbálsz megvesztegetni néhány őrt a gyors áthaladásért", "next": "24" },
+      { "label": "Levágsz egy sziklaösvényre, hogy megkerüld őket", "next": "25" }
+    ]
+  },
+  "9": {
+    "text": "A homokkal terített tárgyalósátorban datolyát és teát kínálnak. Az emír komor, de kíváncsi; tolmácsa selypítve fordít, miközben egy rezesorrú énekes halkan penget a háttérben. A külső körben feszült íjászok lélegeznek egyszerre, mint a hullámzás.",
+    "choices": [
+      { "label": "Udvari ajándékot ajánlasz és tisztelettel beszélsz", "next": "26" },
+      { "label": "Dicsőíted saját tetteidet és megfélemlítesz", "next": "18" },
+      { "label": "Gyengeséget színlelsz, hogy sajnálatot kelts", "next": "21" }
+    ]
+  },
+  "10": {
+    "text": "A szekerek kerekei recsegnek, az olajfák árnyéka csíkokat vet a földre. A csapatban egy beszédes málhásvezető titkos ösvényről suttog, míg egy túlbuzgó újonc falat emelne hordókból. A távolból kürtszó felel a sirályokra.",
+    "choices": [
+      { "label": "Előre lovagolsz felderíteni az utat", "next": "23" },
+      { "label": "Mozgó erődítményt alakítasz a szekerekből", "next": "30" },
+      { "label": "Elfogadod a titkos ösvény ajánlatát", "next": "31" }
+    ]
+  },
+
+
+  "11": {
+    "text": "A pergamenen a jelek mintha vándorolnának a bőrt alattomosan feszegető sótól. Rájössz, hogy a térkép egy holdálláshoz kötött rejtjel szerint váltható át. Egy parázsszemű szerzetes másolatait emlegeted fel magadban, aki járatos a kódokban. A kikötőnél egy zsörtölődő kötéltáncos azt állítja, látott már ilyet.",
+    "choices": [
+      { "label": "A kolostor írnokát keresed a megfejtéshez", "next": "32" },
+      { "label": "A Templomos káplánhoz fordulsz tanácsért", "next": "33" },
+      { "label": "Megpróbálod saját kútfőből megfejteni éjfélig", "next": "24" }
+    ]
+  },
+  "12": {
+    "text": "A gyógyítóteremben ecet és gyolcs szaga csípi a szemed. Egy apáca, Izabel nővér, csöndesen vezényli a segédeket, miközben egy ideges borbély a szerszámait csörgeti. A zarándok vízért könyörög, és a szeme hálásan villan rád.",
+    "choices": [
+      { "label": "Segítesz Izabel nővérnek, és többet tudsz meg a zarándokról", "next": "35" },
+      { "label": "Észreveszed, hogy valaki a gyógyszereket lopja, utána indulsz", "next": "16" },
+      { "label": "Visszatérsz a parancsnoki sátorba jelenteni", "next": "3" }
+    ]
+  },
+  "13": {
+    "text": "A kápolnában a mécsek lángja remeg, és a kő hidege a térdedig kúszik. Egy öreg koldus latin töredékeket motyog, és egy törött kardú kiképző lovag csendben melléd térdel. Imád közben gondolataid mégis visszatérnek a zászlóhoz és a térképhez.",
+    "choices": [
+      { "label": "Visszamész a főtérre és újra nekiindulsz", "next": "2" },
+      { "label": "Elhatározod, hogy még ma éjjel elindulsz a hegyre", "next": "8" },
+      { "label": "A zarándokot keresed meg az ispotályban", "next": "12" }
+    ]
+  },
+  "14": {
+    "text": "A fiú neve Sámi, és remegő kacajjal meséli, hogy az öreg kút mellett rejtekajtó van. Cserébe ételt kér és védelmet a bandáktól. Egy kormos arcú kőműves is beleszól a beszédbe, hogy a rejtekajtó a kolostorhoz vezető régi aknába nyílik.",
+    "choices": [
+      { "label": "Megvesztegeted, hogy azonnal vezessen", "next": "25" },
+      { "label": "Esküt teszel, hogy megvéded, és együtt indultok", "next": "23" },
+      { "label": "Elengeded, de a rejtekajtót megjegyzed későbbre", "next": "24" }
+    ]
+  },
+  "15": {
+    "text": "A tetők cserepei csúsznak, a galambok felrebbennek, és a hold fényében árnyékod hosszúra nyúlik. A túloldalon egy pék segédje felkiált, de késő. A gyerek már eltűnt, csak egy szalag marad, rajta egy címer töredéke.",
+    "choices": [
+      { "label": "A címer alapján a kolostor levéltárába mész", "next": "32" },
+      { "label": "A piactéren kérdezősködsz a címer eredetéről", "next": "6" },
+      { "label": "Visszatérsz a parancsnokhoz a lelettel", "next": "3" }
+    ]
+  },
+  "16": {
+    "text": "Lopva követsz, míg a gyerek egy gyertyafényes pincelejáratnál eltűnik. Odabent egy félszemű kocsmáros dörmög, s egy rekedt vándorhegedűs nyekereg valamit szerelemről és aranyról. A sarokban két fegyveres suttog a hegyi ösvényekről.",
+    "choices": [
+      { "label": "Beépülsz a beszélgetésükbe ital körével", "next": "18" },
+      { "label": "A gyerek után lopózol a hátsó folyosón", "next": "25" },
+      { "label": "Megvesztegeted a kocsmárost információért", "next": "17" }
+    ]
+  },
+  "17": {
+    "text": "Arany cseng a pulton, és a kocsmáros hirtelen bőbeszédű lesz. Azt mondja, a zászlót egy fostos kabátú banda vitte a hegy felé, vezetőjük fél a kolostor harangjaitól. Egy kidőlt bástya alatti üregre utal, ahol kerülőút nyílhat.",
+    "choices": [
+      { "label": "A bástya alatti üreghez sietsz", "next": "25" },
+      { "label": "Embereket toborzol és nyíltan indulsz a hegyre", "next": "23" },
+      { "label": "Előbb a parancsnokhoz viszed a hírt", "next": "3" }
+    ]
+  },
+  "18": {
+    "text": "Szavaiddal játszol, cserébe homályos, de értékes mozaikdarabokat kapsz. Egy rézverő mester megemlíti: az emír ajándékok nyelvén ért, és a tolmácsa a méltányosság embere. Ha gőgöt mutatsz, a tárgyalás elveszett, ha tiszteletet, kapu nyílik.",
+    "choices": [
+      { "label": "Felvértezed magad türelemmel, és újra a tárgyalásra készülsz", "next": "26" },
+      { "label": "Még több információért a patikushoz mész", "next": "7" },
+      { "label": "A kolostor felé fordítod lépteid", "next": "8" }
+    ]
+  },
+  "19": {
+    "text": "A hangod kemény, de a kereskedő mögött két izmos rakodó moccan. Egy reszketeg órás sípolva kéri, ne fajuljon tettlegességig. A kereskedő végül morcosan köp, és semmitmondó útbaigazítást ad.",
+    "choices": [
+      { "label": "Visszavonulsz és más forrást keresel", "next": "7" },
+      { "label": "Parancsnoki jelentést teszel és új feladatot kérsz", "next": "3" },
+      { "label": "Megpróbálsz a rakodók egyikével külön beszélni", "next": "17" }
+    ]
+  },
+  "20": {
+    "text": "A dokkoknál a betegek köhögése a sirályok rikácsolásával vetekszik. Egy szakállas matróz, aki túl sokat ivott, nevetve tagadja a kórt, de arca lázasan fénylik. A patikus asszony véges készletből intézkedik, és segítséget kér a karantén felállításához.",
+    "choices": [
+      { "label": "Karantént állítasz fel és a rendet tartod", "next": "22" },
+      { "label": "Elhagyod a fertőzött mólót és visszatérsz a szárazföldre", "next": "21" },
+      { "label": "A matrózt rábízod a gyógyítókra, te pedig tovább indulsz a konvojhoz", "next": "10" }
+    ]
+  },
+  "21": {
+    "text": "A piactérre visszaérve a morajlás mintha távolabbról jönne: a betegség híre gyorsabb a szélénél. Egy ideges szabó hetykén rád tukmálna kendőket, mint védelmet. A fejeden átsuhan: időt veszítettél, de talán bajt is kerültél.",
+    "choices": [
+      { "label": "A hegyek felé fordulsz, hogy a zászlót felkutasd", "next": "8" },
+      { "label": "Az emír sátrához mész, kihasználva a csendesebb órát", "next": "26" },
+      { "label": "A zarándok térképével foglalkozol tovább", "next": "11" }
+    ]
+  },
+  "22": {
+    "text": "A hordókból rögtönzött palánkot emelsz, csónakokat zárolsz, és a bejáratnál lajstromot vezetsz. A patikus asszony fáradt hálával bólint, a részeg matrózt végül ránt a takaró. A rendet visszaállítod, de a szag és a nyögés a füledben marad.",
+    "choices": [
+      { "label": "Visszatérsz a karavánhoz, hogy útra kelj", "next": "10" },
+      { "label": "A kolostorhoz sietsz, hogy friss hírt vigyél", "next": "8" },
+      { "label": "A káplánhoz fordulsz lelki és taktikai tanácsért", "next": "33" }
+    ]
+  },
+  "23": {
+    "text": "Csatát vállalsz az ösvényen: pajzs a pajzsnak csattan, a lándzsa nyála a bőrön karistol. Egy foghíjas zsoldos hetykén hív párbajra, míg társai a zászló színeiről gúnyolódnak. Hátad mögül a borbélysegéd meglepően pontosan dob köveket.",
+    "choices": [
+      { "label": "Párbajban megdöntöd a vezér tekintélyét", "next": "24" },
+      { "label": "Visszavonulást színlelsz, hogy kelepcébe csalj", "next": "25" },
+      { "label": "Áttörsz és a kolostor kapujához rohansz", "next": "26" }
+    ]
+  },
+  "24": {
+    "text": "Az arany érceként csillan meg az ajánlatod, és a banditák szeme megenyhül. A vezér végül elfogad pár erszényt, ám kiköti: a kolostor harangszókor nem felel az embereiért. A távolban a köd megremeg, mintha valaki figyelne.",
+    "choices": [
+      { "label": "Átcsúszol a kapun, mielőtt a harang szólna", "next": "26" },
+      { "label": "Titkos aknán át próbálsz bejutni", "next": "25" },
+      { "label": "Visszalépsz és a parancsnokhoz küldöd a jelentést", "next": "3" }
+    ]
+  },
+  "25": {
+    "text": "A kidőlt bástya alatti üreg szaga dohos és a kövek nyirkosak. A járat szűkül, mégis végül egy rejtett kolostorudvarba torkollik, ahol két novícius vitatkozik latinul egy ládáról. Az árnyak közt egy rozoga kút körül törött zászlórúd hever.",
+    "choices": [
+      { "label": "Elrejtőzöl és kivárod a megfelelő pillanatot", "next": "26" },
+      { "label": "A ládát megpróbálod kicserélni a novíciusok orra előtt", "next": "28" },
+      { "label": "Megpróbálod meggyőzni őket, hogy a rend zászlaját adják vissza", "next": "27" }
+    ]
+  },
+  "26": {
+    "text": "A kapunál és a sátorban is hasonló légkör fogad: feszült csönd és dünnyögő tanúk. Az emír szemében fáradt bölcsesség ül, a perjel tekintetében óvatosság. Közöttük te állsz, zászló, foglyok és relikviák ügyében, a szavak pengéje vékonyabb minden kardnál.",
+    "choices": [
+      { "label": "Békés cserét javasolsz és tekintélyes tanúkat hívsz", "next": "27" },
+      { "label": "Blöffölsz: nagyobb sereg közelít", "next": "28" },
+      { "label": "A térkép titkát ajánlod fel közös kutatásra", "next": "30" }
+    ]
+  },
+  "27": {
+    "text": "A megállapodás megszületik: a zászlót visszakapod, néhány fogoly szabadul, és a kolostor perjele megáld. Az emír csendben bólint, mintha kő gördült volna le a melléről. Izabel nővér mosolyogva teát hoz, a borbélysegéd pedig végre elteszi a köveit. A zászló újra lobog, és a táborban este táncba kezd egy reszelős hangú lantművész.",
+    "choices": []
+  },
+  "28": {
+    "text": "A blöff hamar lelepleződik: a sátor körül idegek pattannak, a kolostorudvaron harangzúgás tör ki. A kardok kivillannak, és hiába küzdesz derekasan, a túlerő betemet. Utolsóként a zászlórúd árnyéka hajlik föléd, és a por elnyeli a neved.",
+    "choices": []
+  },
+  "29": {
+    "text": "Hosszú lovaglás után elhagyod a várost: a kikötő zajai mögötted maradnak, a tengeri szél a régi sebeket csitítja. Úgy döntesz, nem a te kezednek való ez a kavarodott föld. Egy barátságos pásztor megosztja kenyerét, és a csillagok alatt elhatározod: más országban kezdesz új fejezetet.",
+    "choices": []
+  },
+  "30": {
+    "text": "A szekerekből ügyesen formált mozgó erődítmény döngve halad át a ligeteken. Nyíl záporzik, de a pajzsok összezárnak, és a málhásvezető dalra fakad, hogy bátorítson. A parton taps fogad, a rakomány épségben megérkezik. Károly mester dicséretet, előléptetést és ezüstöt ad.",
+    "choices": []
+  },
+
+  "31": {
+    "text": "A titkos ösvény mocsaras mélyedésbe vezet, ahol a dokkok kórja már fészket rakott. Embereid sorra dőlnek ki, és a málhák közt elvész a rend. A visszaút hosszú, a hír rossz: a konvoj szétesett, a városban pedig a te nevedet is suttogják, mint rossz ómenét.",
+    "choices": []
+  },
+  "32": {
+    "text": "Az írnokkal együtt bogozod a jeleket, és a hold kifeszített ezüstje alatt megnyílik a minta. A térkép egy elfeledett kápolnához vezet, ahol kőbe rejtett vasrács mögött rozsdás láda pihen. Bent egy ereklyetartó, melynek üvege még illatozik az óbor és a mirha keverékétől. A rend örömmel fogad, nevedet a krónikákba vésik.",
+    "choices": []
+  },
+  "33": {
+    "text": "A káplán halkan oktat: a gőg bukást szül, a türelem ajtót nyit. Egy öreg fegyvermester, aki mellette imádkozik, fejével bólint, és felajánl egy régi, de megbízható csatabárdot. A térképhez egy zsoltár képletét társítja, amely kulcs lehet a kőzárhoz. A szíved könnyebb, mint eddig bármikor.",
+    "choices": [
+      { "label": "A zsoltárral a rejtett kápolnához indulsz", "next": "32" },
+      { "label": "Visszamész az emírhez békét kötni", "next": "26" },
+      { "label": "A kolostor kapujához sietsz, hogy a zászlót visszavedd", "next": "26" }
+    ]
+  },
+  "34": {
+    "text": "Makacsul egyedül akarsz dicsőséget: éjjel lopakodsz a kolostor kútjához. A kövek megcsúsznak, a lánc reccsen, és a moraj visszhangja felriasztja a fegyvereseket. A sötétben örök csend terül rád, és csak a harang késői kondulása kísér búcsúztatásodra.",
+    "choices": []
+  },
+  "35": {
+    "text": "Izabel nővér mellett dolgozva észreveszed: a zarándok nyakláncába rejtett kulcs pontosan illik egy régi ereklyetartó zárjába. A nővér titokban útbaigazít a hegyi kápolna felé, és egy zsörtölődő, de jószívű hordár is vállalja, hogy elkísér. A zarándok hálás tekintettel int utánad.",
+    "choices": [
+      { "label": "A kulccsal a hegyi kápolna rejtekéhez indulsz", "next": "32" },
+      { "label": "Előbb a parancsnokkal osztod meg a felfedezést", "next": "3" },
+      { "label": "A kolostor perjelének mutatod meg a kulcsot", "next": "26" }
+    ]
+  }
+}
+}
+
